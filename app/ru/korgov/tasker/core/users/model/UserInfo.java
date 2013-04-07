@@ -23,6 +23,7 @@ public class UserInfo {
             );
         }
     };
+
     private final long id;
     private final String login;
     private final String pwdHash;
