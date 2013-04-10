@@ -147,12 +147,8 @@ public class CollectionUtils {
         return out;
     }
 
-    public static <F, T> List<T> map(final Iterable<F> src, final Function<F, T> fu) {
-        final List<T> out = Cf.newList();
-        for (final F v : src) {
-            out.add(fu.apply(v));
-        }
-        return out;
+    public static <F, T> List<T> map(final Iterable<? extends F> src, final Function<F, T> fu) {
+        return fu.map(src);
     }
 
 
@@ -211,4 +207,16 @@ public class CollectionUtils {
         };
     }
 
+    public static <T> List<List<T>> split(Iterable<? extends T> ts, int chunkSize) {
+        final List<List<T>> out = Cf.newList();
+        final Iterator<? extends T> iterator = ts.iterator();
+        while (iterator.hasNext()) {
+            final List<T> chunk = Cf.newList(chunkSize);
+            for (int i = 0; i < chunkSize && iterator.hasNext(); ++i) {
+                chunk.add(iterator.next());
+            }
+            out.add(chunk);
+        }
+        return out;
+    }
 }

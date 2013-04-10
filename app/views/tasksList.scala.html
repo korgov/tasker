@@ -1,0 +1,11 @@
+@(tasks: List[ru.korgov.tasker.core.tasks.Task])
+
+@main("Tasks") {
+    <ul>
+        @for(t <- tasks) {
+            <li>
+                @task(t)
+            </li>
+        }
+    </ul>
+}

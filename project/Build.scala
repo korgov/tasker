@@ -13,7 +13,8 @@ object ApplicationBuild extends Build {
     javaJdbc,
     javaEbean,
     "org.springframework" % "spring-jdbc" % "3.1.2.RELEASE",
-    "mysql" % "mysql-connector-java" % "5.1.22"
+    "mysql" % "mysql-connector-java" % "5.1.22",
+    "com.intellij" % "annotations" % "12.0"
   )
 
   val main = play.Project(appName, appVersion, appDependencies).settings(

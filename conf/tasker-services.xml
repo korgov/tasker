@@ -12,7 +12,9 @@ http://www.springframework.org/schema/context http://www.springframework.org/sch
     <context:annotation-config/>
 
     <bean name="userService" class="ru.korgov.tasker.core.users.UserService"/>
+    <bean name="tasksService" class="ru.korgov.tasker.core.tasks.TasksService"/>
 
     <bean name="showAllUsers" class="ru.korgov.tasker.controllers.ShowAllUsers"/>
+    <bean name="showAllTasks" class="ru.korgov.tasker.controllers.ShowAllTasks"/>
 
 </beans>
