@@ -4,8 +4,8 @@ import play.Project._
 
 object ApplicationBuild extends Build {
 
-  val appName         = "tasker"
-  val appVersion      = "1.0-SNAPSHOT"
+  val appName = "tasker"
+  val appVersion = "1.0-SNAPSHOT"
 
   val appDependencies = Seq(
     // Add your project dependencies here,
@@ -17,7 +17,12 @@ object ApplicationBuild extends Build {
     "com.intellij" % "annotations" % "12.0"
   )
 
-  val main = play.Project(appName, appVersion, appDependencies).settings(
 
+  val commonUtil = play.Project("common-util", dependencies = appDependencies, path = file("common")).settings(
   )
+
+  val aMain = play.Project(appName, appVersion, appDependencies, path = file("main")).dependsOn(commonUtil).settings(
+  )
+
+
 }
