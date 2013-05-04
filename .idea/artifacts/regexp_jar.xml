@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="regexp:jar">
+    <output-path>$PROJECT_DIR$/main/public/jars</output-path>
+    <root id="archive" name="regexp.jar">
+      <element id="module-output" name="regexp" />
+      <element id="module-output" name="common-util" />
+      <element id="extracted-dir" path="/usr/local/soft/play-2.1.1/repository/cache/com.intellij/annotations/jars/annotations-12.0.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

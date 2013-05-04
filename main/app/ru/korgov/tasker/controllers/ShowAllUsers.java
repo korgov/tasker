@@ -8,7 +8,7 @@ import ru.korgov.tasker.core.users.UserService;
 import ru.korgov.tasker.core.users.model.UserInfo;
 import ru.korgov.util.alias.Cf;
 import ru.korgov.util.alias.Cu;
-import views.html.test;
+import views.html.mainmenu;
 
 /**
  * Author: Kirill Korgov (kirill@korgov.ru))
@@ -21,6 +21,6 @@ public class ShowAllUsers extends Controller implements SpringController {
 
     @Override
     public Result process() {
-        return ok(test.render(Cu.join(UserInfo.TO_NAME.map(userService.loadAllUsers()), Cf.list("Hello from Spring!!!"))));
+        return ok(mainmenu.render(Cu.join(UserInfo.TO_NAME.map(userService.loadAllUsers()), Cf.list("Hello from Spring!!!"))));
     }
 }

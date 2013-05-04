@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="SBT: com.intellij:annotations:12.0">
+    <CLASSES>
+      <root url="jar:///usr/local/soft/play-2.1.1/repository/cache/com.intellij/annotations/jars/annotations-12.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

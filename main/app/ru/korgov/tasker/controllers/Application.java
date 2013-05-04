@@ -5,21 +5,23 @@ import org.springframework.jdbc.core.simple.ParameterizedRowMapper;
 import org.springframework.transaction.TransactionStatus;
 import org.springframework.transaction.support.TransactionCallback;
 import org.springframework.transaction.support.TransactionTemplate;
+import play.api.libs.MimeTypes;
 import play.mvc.Controller;
 import play.mvc.Result;
 import ru.korgov.tasker.core.app.spring.Spring;
-import ru.korgov.tasker.core.users.UserService;
-import ru.korgov.tasker.core.users.model.UserInfo;
 import ru.korgov.util.alias.Cf;
 import views.html.index;
 import views.html.index2;
-import views.html.test;
+import views.html.mainmenu;
+import views.xml.test;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.List;
 
 public class Application extends Controller {
+
+    public static final String JNLP_CONTENT_TYPE = MimeTypes.forExtension("jnlp").get();
 
     public static Result test() {
 
@@ -37,7 +39,7 @@ public class Application extends Controller {
                 });
             }
         });
-        return ok(test.render(logins));
+        return ok(mainmenu.render(logins));
 
     }
 
@@ -52,8 +54,13 @@ public class Application extends Controller {
     }
 
     public static Result test2() {
-        final UserService userService = Spring.getBeanOfType(UserService.class);
-        return ok(test.render(UserInfo.TO_NAME.map(userService.loadAllUsers())));
+        final String nameValue = request().getQueryString("name");
+        if (nameValue != null) {
+            System.out.println(nameValue);
+            return ok(test.render(nameValue)).as("application/x-java-jnlp-file");
+        }
+        System.out.println("Nothing");
+        return ok(test.render("Main")).as(JNLP_CONTENT_TYPE);
     }
 
     public static Result test3(final String msg) {
