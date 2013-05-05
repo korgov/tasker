@@ -13,7 +13,7 @@ import ru.korgov.util.alias.Cf;
 import views.html.index;
 import views.html.index2;
 import views.html.mainmenu;
-import views.xml.test;
+import views.html.test;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;

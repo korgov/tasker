@@ -6,6 +6,8 @@ target
 tmp
 .history
 dist
+.idea/workspace.xml
+.idea/misc.xml
 /out
 /.classpath
 /.project

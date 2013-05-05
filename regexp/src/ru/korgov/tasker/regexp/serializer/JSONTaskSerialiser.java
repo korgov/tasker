@@ -22,15 +22,15 @@ public class JSONTaskSerialiser implements TaskSerialiser {
 
     private static final String TASKS_JSON_ARRAY_KEY = "tasks";
 
-    final String filename;
+    final String fileUrl;
 
-    public JSONTaskSerialiser(final String filename) {
-        this.filename = filename;
+    public JSONTaskSerialiser(final String fileUrl) {
+        this.fileUrl = fileUrl;
     }
 
     public List<Task> readTasks() throws IOException {
         final List<Task> out = Cf.newList();
-        final String tasksAsJsonString = UrlUtils.read(new URL(filename).openConnection());
+        final String tasksAsJsonString = UrlUtils.read(new URL(fileUrl).openConnection());
         try {
             final JSONObject tasksObject = new JSONObject(tasksAsJsonString);
             final JSONArray tasksArray = tasksObject.getJSONArray(TASKS_JSON_ARRAY_KEY);
@@ -52,7 +52,7 @@ public class JSONTaskSerialiser implements TaskSerialiser {
                 throw new IllegalArgumentException(e);
             }
         }
-        IOUtils.writeFile(filename, toSave.toString());
+        IOUtils.writeFile(fileUrl, toSave.toString());
     }
 
     private Task jsonToTask(final JSONObject task) throws JSONException {

@@ -4,6 +4,7 @@ import ru.korgov.tasker.regexp.model.Task;
 import ru.korgov.tasker.regexp.model.TaskType;
 import ru.korgov.tasker.regexp.serializer.JSONTaskSerialiser;
 import ru.korgov.tasker.regexp.serializer.TaskSerialiser;
+import ru.korgov.util.UrlUtils;
 import ru.korgov.util.alias.Cf;
 import ru.korgov.util.alias.Cu;
 import ru.korgov.util.alias.Fu;
@@ -14,13 +15,9 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Collections;
-import java.util.HashSet;
+import java.net.URL;
+import java.util.*;
 import java.util.List;
-import java.util.ListIterator;
-import java.util.Set;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -72,6 +69,8 @@ public class TaskClient {
                 nextTaskButton.setEnabled(currentTaskIter.hasNext());
                 showNextIfHas();
                 prevTaskButton.setEnabled(false);
+
+                sayHelloToServer();
             }
         });
         nextTaskButton.addActionListener(new ActionListener() {
@@ -87,6 +86,17 @@ public class TaskClient {
         final Action testAnswerAction = testAnswerAction();
         testAnswerButton.setAction(testAnswerAction);
         answerTextField.setAction(testAnswerAction);
+    }
+
+    private void sayHelloToServer() {
+        answerTextField.setText("Trying");
+        try {
+            final String responce = UrlUtils.read(new URL("http://localhost:9000/test2?name=hello_from_client").openConnection());
+            System.out.println(responce);
+            answerTextField.setText("Success!");
+        } catch (IOException e) {
+            answerTextField.setText("Failed: " + e.getMessage());
+        }
     }
 
     private List<Task> loadTasks() {

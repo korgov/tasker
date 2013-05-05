@@ -79,4 +79,16 @@ public class Task {
         result = 31 * result + (resultData != null ? resultData.hashCode() : 0);
         return result;
     }
+
+    @Override
+    public String toString() {
+        return "Task{" +
+                "id=" + id +
+                ", type=" + type +
+                ", title='" + title + '\'' +
+                ", description='" + description + '\'' +
+                ", sourceData=" + sourceData +
+                ", resultData=" + resultData +
+                '}';
+    }
 }

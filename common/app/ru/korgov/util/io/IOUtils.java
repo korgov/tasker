@@ -34,7 +34,7 @@ public class IOUtils {
     }
 
     public static String read(final InputStream inputStream) throws IOException {
-        return read(new BufferedReader(new InputStreamReader(inputStream)), true);
+        return read(new BufferedReader(new InputStreamReader(inputStream, "UTF-8")), true);
     }
 
     public static String read(final BufferedReader bufferedReader, final boolean closeAfterRead) throws IOException {

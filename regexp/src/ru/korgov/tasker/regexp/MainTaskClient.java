@@ -14,7 +14,7 @@ public class MainTaskClient {
 
     private static void clientForm() {
         final JFrame form = new JFrame("RegExp Tasker");
-        final TaskClient taskClient = new TaskClient(form, System.getProperty("user.dir") + "/tasks.tsk");
+        final TaskClient taskClient = new TaskClient(form, "http://localhost:9000/assets/jars/tasks.tsk");
         form.setContentPane(taskClient.getMainPanel());
         form.setMinimumSize(new Dimension(700, 550));
         form.pack();

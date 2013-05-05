@@ -554,9 +554,7 @@ public class JSONArray {
      */
     public String optString(int index, String defaultValue) {
         Object object = this.opt(index);
-        return JSONObject.NULL.equals(object)
-            ? object.toString()
-            : defaultValue;
+        return JSONObject.NULL.equals(object) ? defaultValue : object.toString();
     }
 
 
