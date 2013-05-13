@@ -16,5 +16,6 @@ http://www.springframework.org/schema/context http://www.springframework.org/sch
 
     <bean name="showAllUsers" class="ru.korgov.tasker.controllers.ShowAllUsers"/>
     <bean name="showAllTasks" class="ru.korgov.tasker.controllers.ShowAllTasks"/>
+    <bean name="showCourseController" class="ru.korgov.tasker.controllers.ShowCourseController"/>
 
 </beans>

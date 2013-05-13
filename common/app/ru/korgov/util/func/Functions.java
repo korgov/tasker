@@ -37,4 +37,13 @@ public class Functions {
             }
         };
     }
+
+    public static <T> Function<T, T> id() {
+        return new Fu<T, T>() {
+            @Override
+            public T apply(T t) {
+                return t;
+            }
+        };
+    }
 }

@@ -7,37 +7,64 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/regexp/test/ru/korgov/tasker/regexp/serializer/JSONTaskSerialiserTest.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/main/app/views/test.scala.xml" afterPath="$PROJECT_DIR$/main/app/views/test.scala.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/app/ru/korgov/tasker/controllers/Application.java" afterPath="$PROJECT_DIR$/main/app/ru/korgov/tasker/controllers/Application.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/app/ru/korgov/util/io/IOUtils.java" afterPath="$PROJECT_DIR$/common/app/ru/korgov/util/io/IOUtils.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/app/org/json/JSONArray.java" afterPath="$PROJECT_DIR$/common/app/org/json/JSONArray.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/regexp/src/ru/korgov/tasker/regexp/serializer/JSONTaskSerialiser.java" afterPath="$PROJECT_DIR$/regexp/src/ru/korgov/tasker/regexp/serializer/JSONTaskSerialiser.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/regexp/src/ru/korgov/tasker/regexp/MainTaskClient.java" afterPath="$PROJECT_DIR$/regexp/src/ru/korgov/tasker/regexp/MainTaskClient.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/regexp/src/ru/korgov/tasker/regexp/model/Task.java" afterPath="$PROJECT_DIR$/regexp/src/ru/korgov/tasker/regexp/model/Task.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/regexp/src/ru/korgov/tasker/regexp/TaskClient.java" afterPath="$PROJECT_DIR$/regexp/src/ru/korgov/tasker/regexp/TaskClient.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/regexp/regexp.iml" afterPath="$PROJECT_DIR$/regexp/regexp.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/app/ru/korgov/tasker/core/tasks/model/CompleteTaskInfo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/app/ru/korgov/tasker/core/tasks/model/CourseInfo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/FuGenConfigurationKL.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/app/ru/korgov/util/Parsers.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/app/ru/korgov/tasker/controllers/ShowCourseController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/app/ru/korgov/tasker/core/tasks/model/TaskCreatorInfo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/app/views/course.scala.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/app/views/xerror.scala.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/main/app/ru/korgov/tasker/core/tasks/Task.java" afterPath="$PROJECT_DIR$/main/app/ru/korgov/tasker/core/tasks/model/Task.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/main/app/ru/korgov/tasker/core/tasks/TaskType.java" afterPath="$PROJECT_DIR$/main/app/ru/korgov/tasker/core/tasks/model/TaskType.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/app/ru/korgov/util/collection/CollectionUtils.java" afterPath="$PROJECT_DIR$/common/app/ru/korgov/util/collection/CollectionUtils.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/app/ru/korgov/util/func/Functions.java" afterPath="$PROJECT_DIR$/common/app/ru/korgov/util/func/Functions.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/app/ru/korgov/tasker/core/tasks/TasksService.java" afterPath="$PROJECT_DIR$/main/app/ru/korgov/tasker/core/tasks/TasksService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/public/stylesheets/main.css" afterPath="$PROJECT_DIR$/main/public/stylesheets/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/conf/routes" afterPath="$PROJECT_DIR$/main/conf/routes" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/app/views/task.scala.html" afterPath="$PROJECT_DIR$/main/app/views/task.scala.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/conf/tasker-services.xml" afterPath="$PROJECT_DIR$/main/conf/tasker-services.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/script/tasks.sql" afterPath="$PROJECT_DIR$/main/script/tasks.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/app/views/tasksList.scala.html" afterPath="$PROJECT_DIR$/main/app/views/tasksList.scala.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="tasker.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1367704218959" ignored="false" />
+    <file path="/Dummy.txt" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1368363308738" ignored="false" />
     <file path="/test.scala.html" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1367706278418" ignored="false" />
     <file path="/Application.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1367705623389" ignored="false" />
     <file path="/test.scala.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1367705029629" ignored="false" />
-    <file path="/routes" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1367701757025" ignored="false" />
+    <file path="/routes" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1368396788836" ignored="false" />
     <file path="/a.dummy" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1367705304088" ignored="false" />
     <file path="/.gitignore" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1367703812962" ignored="false" />
     <file path="/main2.scala.html" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1367705066188" ignored="false" />
-    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1367712126850" ignored="false" />
     <file path="$PROJECT_DIR$/main/logs/application.log" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1367705646833" ignored="false" />
     <file path="/JSONTaskSerialiser.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1367707349194" ignored="false" />
     <file path="/fragment.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1367707707655" ignored="false" />
     <file path="/JSONTaskSerialiserTest.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1367707063176" ignored="false" />
     <file path="/IOUtils.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1367707262875" ignored="false" />
     <file path="/TaskClient.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1367710279255" ignored="false" />
+    <file path="/tasks.sql" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1368398946150" ignored="false" />
+    <file path="/TaskType.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1368390686599" ignored="false" />
+    <file path="/Course.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1368391365043" ignored="false" />
+    <file path="/File Header.txt.ft" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1368391302801" ignored="false" />
+    <file path="/TaskCreator.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1368391439528" ignored="false" />
+    <file path="/TasksService.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1368400041872" ignored="false" />
+    <file path="/ShowCourseController.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1368405120251" ignored="false" />
+    <file path="/Parsers.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1368392226273" ignored="false" />
+    <file path="/xerror.scala.html" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1368392548955" ignored="false" />
+    <file path="/CompleteTaskInfo.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1368403524140" ignored="false" />
+    <file path="/Functions.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1368393713414" ignored="false" />
+    <file path="/course.scala.html" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1368404766826" ignored="false" />
+    <file path="/a.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1368403494779" ignored="false" />
+    <file path="/Task.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1368395637355" ignored="false" />
+    <file path="/tasker" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1368405042395" ignored="false" />
+    <file path="/tasker-services.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1368396824128" ignored="false" />
+    <file path="/main.css" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1368403199170" ignored="false" />
+    <file path="/CourseInfo.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1368398901420" ignored="false" />
+    <file path="/TaskCreatorInfo.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1368399951591" ignored="false" />
+    <file path="/CollectionUtils.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1368404298788" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,45 +78,13 @@
   <component name="DaemonCodeAnalyzer">
     <disable_hints />
   </component>
+  <component name="DatabaseView">
+    <flatten value="false" />
+    <groupTables value="false" />
+    <sortChildren value="false" />
+  </component>
   <component name="DebuggerManager">
-    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
-      <breakpoint>
-        <option name="NOTIFY_CAUGHT" value="true" />
-        <option name="NOTIFY_UNCAUGHT" value="true" />
-        <option name="ENABLED" value="false" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint>
-        <option name="NOTIFY_CAUGHT" value="true" />
-        <option name="NOTIFY_UNCAUGHT" value="true" />
-        <option name="ENABLED" value="false" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-    </breakpoint_any>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
-    <line_breakpoints>
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint url="file://$PROJECT_DIR$/regexp/src/ru/korgov/tasker/regexp/serializer/JSONTaskSerialiser.java" line="32" class="ru.korgov.tasker.regexp.serializer.JSONTaskSerialiser" package="ru.korgov.tasker.regexp.serializer">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
@@ -151,6 +146,43 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </line_breakpoints>
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -160,44 +192,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MainTaskClient.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/regexp/src/ru/korgov/tasker/regexp/MainTaskClient.java">
+      <file leaf-file-name="ShowCourseController.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/main/app/ru/korgov/tasker/controllers/ShowCourseController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="19" selection-start="371" selection-end="371" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TaskClient.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/regexp/src/ru/korgov/tasker/regexp/TaskClient.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="72" column="35" selection-start="2354" selection-end="2354" vertical-scroll-proportion="1.7133621">
+            <state line="70" column="59" selection-start="2837" selection-end="2837" vertical-scroll-proportion="0.6111111">
               <folding>
-                <element signature="e#1895#2378#0" expanded="true" />
-                <element signature="e#2367#2368#0" expanded="true" />
-                <element signature="e#4609#4730#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#1870#2394#0" expanded="true" />
+                <element signature="e#2363#2364#0" expanded="true" />
+                <element signature="e#2676#2861#0" expanded="true" />
+                <element signature="e#2850#2851#0" expanded="true" />
+                <element signature="e#3005#3017#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JSONTaskSerialiser.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/regexp/src/ru/korgov/tasker/regexp/serializer/JSONTaskSerialiser.java">
+      <file leaf-file-name="course.template.scala" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main/target/scala-2.10/src_managed/main/views/html/course.template.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="62" column="0" selection-start="2096" selection-end="2096" vertical-scroll-proportion="0.0">
+            <state line="74" column="0" selection-start="3869" selection-end="3869" vertical-scroll-proportion="0.0">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JSONUtils.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common/app/ru/korgov/util/JSONUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="0" selection-start="762" selection-end="762" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#697#705#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -205,52 +220,80 @@
       <file leaf-file-name="CollectionUtils.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/common/app/ru/korgov/util/collection/CollectionUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="56" column="0" selection-start="1827" selection-end="1827" vertical-scroll-proportion="0.0">
+            <state line="159" column="50" selection-start="5090" selection-end="5090" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JSONArray.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common/app/org/json/JSONArray.java">
+      <file leaf-file-name="Task.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main/app/ru/korgov/tasker/core/tasks/model/Task.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="544" column="0" selection-start="18282" selection-end="18282" vertical-scroll-proportion="0.0">
+            <state line="11" column="13" selection-start="259" selection-end="259" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JSONObject.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common/app/org/json/JSONObject.java">
+      <file leaf-file-name="TaskType.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main/app/ru/korgov/tasker/core/tasks/model/TaskType.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="139" column="31" selection-start="5862" selection-end="5862" vertical-scroll-proportion="0.0">
+            <state line="48" column="18" selection-start="1280" selection-end="1280" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#303#667#0" expanded="true" />
+                <element signature="e#660#661#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tasker" pinned="false" current="false" current-in-tab="false">
+        <entry file="dbDummy://db-console:/72a581d0/dc4442c4-89e0-4db2-8762-82757eef74c6/">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="57" column="0" selection-start="2823" selection-end="2823" vertical-scroll-proportion="-7.793103">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UrlUtils.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common/app/ru/korgov/util/UrlUtils.java">
+      <file leaf-file-name="TaskCreatorInfo.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main/app/ru/korgov/tasker/core/tasks/model/TaskCreatorInfo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="25" selection-start="283" selection-end="283" vertical-scroll-proportion="0.0">
+            <state line="11" column="19" selection-start="245" selection-end="245" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#926#1303#0" expanded="true" />
+                <element signature="e#939#956#0" expanded="true" />
+                <element signature="e#1296#1297#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tasker-services.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main/conf/tasker-services.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="36" selection-start="1054" selection-end="1074" vertical-scroll-proportion="-9.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IOUtils.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common/app/ru/korgov/util/io/IOUtils.java">
+      <file leaf-file-name="course.scala.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main/app/views/course.scala.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="0" selection-start="1014" selection-end="1014" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="48" column="37" selection-start="2241" selection-end="2241" vertical-scroll-proportion="-13.75">
+              <folding>
+                <element signature="e#64#121#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JSONTaskSerialiserTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/regexp/test/ru/korgov/tasker/regexp/serializer/JSONTaskSerialiserTest.java">
+      <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main/public/stylesheets/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="48" selection-start="404" selection-end="404" vertical-scroll-proportion="0.0">
+            <state line="56" column="10" selection-start="910" selection-end="919" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -274,30 +317,403 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/main/public/jars/test.jnlp" />
-        <option value="$PROJECT_DIR$/main/app/ru/korgov/tasker/controllers/ShowAllUsers.java" />
-        <option value="$PROJECT_DIR$/main/app/views/xml/test.scala.xml" />
+        <option value="$PROJECT_DIR$/.idea/dataSources.xml" />
+        <option value="$PROJECT_DIR$/main/app/views/task.scala.html" />
+        <option value="$PROJECT_DIR$/main/app/views/tasksList.scala.html" />
+        <option value="$PROJECT_DIR$/main/conf/tasker-services.xml" />
         <option value="$PROJECT_DIR$/main/conf/routes" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/main/app/views/test.scala.xml" />
-        <option value="$PROJECT_DIR$/main/app/views/main2.scala.html" />
-        <option value="$PROJECT_DIR$/main/app/ru/korgov/tasker/controllers/Application.java" />
-        <option value="$PROJECT_DIR$/regexp/src/ru/korgov/tasker/regexp/MainTaskClient.java" />
-        <option value="$PROJECT_DIR$/main/app/views/test.scala.html" />
-        <option value="$PROJECT_DIR$/regexp/test/ru/korgov/tasker/regexp/serializer/JSONTaskSerialiserTest.java" />
-        <option value="$PROJECT_DIR$/regexp/src/ru/korgov/tasker/regexp/model/Task.java" />
-        <option value="$PROJECT_DIR$/common/app/ru/korgov/util/io/IOUtils.java" />
-        <option value="$PROJECT_DIR$/regexp/src/ru/korgov/tasker/regexp/serializer/JSONTaskSerialiser.java" />
-        <option value="$PROJECT_DIR$/common/app/org/json/JSONArray.java" />
-        <option value="$PROJECT_DIR$/regexp/src/ru/korgov/tasker/regexp/TaskClient.java" />
+        <option value="$PROJECT_DIR$/main/app/ru/korgov/tasker/core/tasks/model/CourseInfo.java" />
+        <option value="$PROJECT_DIR$/main/script/tasks.sql" />
+        <option value="$PROJECT_DIR$/main/app/ru/korgov/tasker/core/tasks/model/TaskCreatorInfo.java" />
+        <option value="$PROJECT_DIR$/main/app/ru/korgov/tasker/core/tasks/TasksService.java" />
+        <option value="$PROJECT_DIR$/main/public/stylesheets/main.css" />
+        <option value="$PROJECT_DIR$/main/app/ru/korgov/tasker/core/tasks/model/TaskType.java" />
+        <option value="$PROJECT_DIR$/main/app/ru/korgov/tasker/core/tasks/model/CompleteTaskInfo.java" />
+        <option value="$PROJECT_DIR$/common/app/ru/korgov/util/collection/CollectionUtils.java" />
+        <option value="$PROJECT_DIR$/main/app/views/course.scala.html" />
+        <option value="db-console:/72a581d0/dc4442c4-89e0-4db2-8762-82757eef74c6/" />
+        <option value="$PROJECT_DIR$/main/app/ru/korgov/tasker/controllers/ShowCourseController.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-1" />
     <option name="y" value="25" />
-    <option name="width" value="1922" />
-    <option name="height" value="1056" />
+    <option name="width" value="1368" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>AOP</id>
+          </State>
+          <State>
+            <id>Abstraction issues</id>
+          </State>
+          <State>
+            <id>ActionScript specificJavaScript</id>
+          </State>
+          <State>
+            <id>Android</id>
+          </State>
+          <State>
+            <id>Android Lint</id>
+          </State>
+          <State>
+            <id>Ant inspections</id>
+          </State>
+          <State>
+            <id>Application Server Specific Inspections</id>
+          </State>
+          <State>
+            <id>Assignment issues</id>
+          </State>
+          <State>
+            <id>BPMN 2.0 configuration errors</id>
+          </State>
+          <State>
+            <id>Bean Validation issues</id>
+          </State>
+          <State>
+            <id>CDI(Contexts and Dependency Injection) issues</id>
+          </State>
+          <State>
+            <id>CFML</id>
+          </State>
+          <State>
+            <id>CSS</id>
+          </State>
+          <State>
+            <id>Class metrics</id>
+          </State>
+          <State>
+            <id>Class structure</id>
+          </State>
+          <State>
+            <id>Cloning issues</id>
+          </State>
+          <State>
+            <id>Code quality toolsJavaScript</id>
+          </State>
+          <State>
+            <id>Code style issues</id>
+          </State>
+          <State>
+            <id>Code style issuesJavaScript</id>
+          </State>
+          <State>
+            <id>CoffeeScript</id>
+          </State>
+          <State>
+            <id>Concurrency annotation issues</id>
+          </State>
+          <State>
+            <id>Control FlowGroovy</id>
+          </State>
+          <State>
+            <id>Control flow issues</id>
+          </State>
+          <State>
+            <id>Control flow issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Cucumber</id>
+          </State>
+          <State>
+            <id>Cucumber Java</id>
+          </State>
+          <State>
+            <id>Data flow issues</id>
+          </State>
+          <State>
+            <id>Declaration redundancy</id>
+          </State>
+          <State>
+            <id>Declaration redundancyGroovy</id>
+          </State>
+          <State>
+            <id>DeclarationGroovy</id>
+          </State>
+          <State>
+            <id>Dependency issues</id>
+          </State>
+          <State>
+            <id>Encapsulation issues</id>
+          </State>
+          <State>
+            <id>Error handling</id>
+          </State>
+          <State>
+            <id>Error handlingGroovy</id>
+          </State>
+          <State>
+            <id>Error handlingJavaScript</id>
+          </State>
+          <State>
+            <id>Facelet format detection</id>
+          </State>
+          <State>
+            <id>Faces Model</id>
+          </State>
+          <State>
+            <id>Finalization issues</id>
+          </State>
+          <State>
+            <id>FlexUnit inspections</id>
+          </State>
+          <State>
+            <id>FreeMarker inspections</id>
+          </State>
+          <State>
+            <id>General</id>
+          </State>
+          <State>
+            <id>GeneralCoffeeScript</id>
+          </State>
+          <State>
+            <id>GeneralJavaScript</id>
+          </State>
+          <State>
+            <id>Google Web Toolkit issues</id>
+          </State>
+          <State>
+            <id>GrailsGroovy</id>
+          </State>
+          <State>
+            <id>Groovy</id>
+          </State>
+          <State>
+            <id>Guice Inspections</id>
+          </State>
+          <State>
+            <id>HTML</id>
+          </State>
+          <State>
+            <id>Hibernate Issues</id>
+          </State>
+          <State>
+            <id>Imports</id>
+          </State>
+          <State>
+            <id>Inheritance issues</id>
+          </State>
+          <State>
+            <id>Initialization issues</id>
+          </State>
+          <State>
+            <id>IntelliJ IDEA Platform Inspections</id>
+          </State>
+          <State>
+            <id>Internationalization issues</id>
+          </State>
+          <State>
+            <id>J2ME Plugin</id>
+          </State>
+          <State>
+            <id>J2ME issues</id>
+          </State>
+          <State>
+            <id>JBoss Seam issues</id>
+          </State>
+          <State>
+            <id>JPA issues</id>
+          </State>
+          <State>
+            <id>JSP Inspections</id>
+          </State>
+          <State>
+            <id>JUnit issues</id>
+          </State>
+          <State>
+            <id>Java EE issues</id>
+          </State>
+          <State>
+            <id>Java language level issues</id>
+          </State>
+          <State>
+            <id>Java language level migration aids</id>
+          </State>
+          <State>
+            <id>JavaBeans issues</id>
+          </State>
+          <State>
+            <id>JavaFX</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
+            <id>JavaScript function metricsJavaScript</id>
+          </State>
+          <State>
+            <id>Javadoc issues</id>
+          </State>
+          <State>
+            <id>LESS</id>
+          </State>
+          <State>
+            <id>Logging issues</id>
+          </State>
+          <State>
+            <id>Memory issues</id>
+          </State>
+          <State>
+            <id>Method MetricsGroovy</id>
+          </State>
+          <State>
+            <id>Method metrics</id>
+          </State>
+          <State>
+            <id>Modularization issues</id>
+          </State>
+          <State>
+            <id>Naming ConventionsGroovy</id>
+          </State>
+          <State>
+            <id>Naming conventions</id>
+          </State>
+          <State>
+            <id>Naming conventionsJavaScript</id>
+          </State>
+          <State>
+            <id>Numeric issues</id>
+          </State>
+          <State>
+            <id>OSGi</id>
+          </State>
+          <State>
+            <id>OtherGroovy</id>
+          </State>
+          <State>
+            <id>Packaging issues</id>
+          </State>
+          <State>
+            <id>Pages Navigation Model</id>
+          </State>
+          <State>
+            <id>Performance issues</id>
+          </State>
+          <State>
+            <id>Plugin DevKit</id>
+          </State>
+          <State>
+            <id>Portability issues</id>
+          </State>
+          <State>
+            <id>Potentially confusing code constructsGroovy</id>
+          </State>
+          <State>
+            <id>Potentially confusing code constructsJavaScript</id>
+          </State>
+          <State>
+            <id>Probable bugs</id>
+          </State>
+          <State>
+            <id>Probable bugsCoffeeScript</id>
+          </State>
+          <State>
+            <id>Probable bugsGroovy</id>
+          </State>
+          <State>
+            <id>Probable bugsJavaScript</id>
+          </State>
+          <State>
+            <id>Properties Files</id>
+          </State>
+          <State>
+            <id>RELAX NG</id>
+          </State>
+          <State>
+            <id>Resource management issues</id>
+          </State>
+          <State>
+            <id>SASS/SCSS</id>
+          </State>
+          <State>
+            <id>SQL</id>
+          </State>
+          <State>
+            <id>Scala: General</id>
+          </State>
+          <State>
+            <id>Scala: Method signature</id>
+          </State>
+          <State>
+            <id>Security issues</id>
+          </State>
+          <State>
+            <id>Serialization issues</id>
+          </State>
+          <State>
+            <id>Spelling</id>
+          </State>
+          <State>
+            <id>Spring Model</id>
+          </State>
+          <State>
+            <id>Spring SecuritySpring Model</id>
+          </State>
+          <State>
+            <id>Spring Web FlowSpring Model</id>
+          </State>
+          <State>
+            <id>Spring Web ServicesSpring Model</id>
+          </State>
+          <State>
+            <id>Struts</id>
+          </State>
+          <State>
+            <id>Struts 1Struts</id>
+          </State>
+          <State>
+            <id>Struts 2Struts</id>
+          </State>
+          <State>
+            <id>TestNG</id>
+          </State>
+          <State>
+            <id>Threading issues</id>
+          </State>
+          <State>
+            <id>Threading issuesGroovy</id>
+          </State>
+          <State>
+            <id>UI Form Problems</id>
+          </State>
+          <State>
+            <id>Validity issuesGroovy</id>
+          </State>
+          <State>
+            <id>Velocity inspections</id>
+          </State>
+          <State>
+            <id>Visibility issues</id>
+          </State>
+          <State>
+            <id>Web Services</id>
+          </State>
+          <State>
+            <id>XML</id>
+          </State>
+          <State>
+            <id>XPath</id>
+          </State>
+          <State>
+            <id>toString() issues</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Abstraction issues</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -328,7 +744,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -343,49 +758,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="regexp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tasker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="regexp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="regexp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tasker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="regexp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tasker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="project" />
+              <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -396,6 +769,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="script" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tasker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stylesheets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -428,6 +823,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="jars" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tasker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="conf" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -485,23 +894,201 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="users" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tasker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tasker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="users" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tasker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tasker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tasks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tasker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tasker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tasks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tasker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tasker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tasker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tasker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tasker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tasker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="util" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tasker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="OverrideImplement.combined" value="true" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="options.lastSelected" value="preferences.fileTypes" />
+    <property name="options.lastSelected" value="ru.korgov.intellij.fugen.FuGenProjectComponent" />
     <property name="last_opened_file_path" value="/usr/local/soft/play-2.1.1/repository/local/play/play_2.10/2.1.1/srcs/play_2.10-sources.jar!/" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
@@ -510,9 +1097,9 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="PublishConfig">
     <servers>
@@ -528,11 +1115,11 @@
     </servers>
   </component>
   <component name="RecentsManager">
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="ru.korgov.tasker.regexp.serializer" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/main/app/views" />
@@ -583,14 +1170,6 @@
       <option name="PROGRAM_PARAMETERS" />
       <method />
     </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
-      <method />
-    </configuration>
     <configuration default="true" type="Specs2RunConfiguration" factoryName="Specs2">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <extension name="scalaCoverage" />
@@ -604,6 +1183,27 @@
       <setting name="testName" value="" />
       <setting name="testKind" value="Class" />
       <setting name="showProgressMessages" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -634,19 +1234,6 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
@@ -660,6 +1247,13 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -683,11 +1277,10 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
-      <JSDebuggerConfigurationSettings>
-        <option name="engineId" value="embedded" />
-        <option name="fileUrl" />
-      </JSDebuggerConfigurationSettings>
+    <configuration default="true" type="com.intellij.persistence.run.ConsoleRunConfigurationType" factoryName="Query Language Console">
+      <option name="VM_PARAMETERS" value="" />
+      <option name="USER_CFG_CLASS" />
+      <option name="CONTEXT_PROVIDER" />
       <method />
     </configuration>
     <list size="1">
@@ -722,36 +1315,42 @@
       <created>1367703756941</created>
       <updated>1367703756941</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="upd">
+      <created>1367712144223</created>
+      <updated>1367712144223</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="25" width="1922" height="1056" extended-state="6" />
+    <frame x="-1" y="25" width="1368" height="744" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.43314916" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32715008" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29393938" sideWeight="0.73187184" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4030354" sideWeight="0.49924242" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.084848486" sideWeight="0.73187184" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18939394" sideWeight="0.5969646" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.43314916" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26812816" sideWeight="0.5007576" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2497332" sideWeight="0.67071825" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2497332" sideWeight="0.56685084" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928178" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26969698" sideWeight="0.5969646" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3288364" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -821,122 +1420,148 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/regexp/src/ru/korgov/tasker/regexp/Main.java">
+    <entry file="file://$PROJECT_DIR$/main/public/jars/tasks.tsk">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="106" selection-start="413" selection-end="458" vertical-scroll-proportion="0.0">
+        <state line="3" column="193" selection-start="702" selection-end="891" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/app/views/test.scala.html">
+    <entry file="file://$PROJECT_DIR$/main/app/views/tasksList.scala.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="15" selection-start="252" selection-end="252" vertical-scroll-proportion="-3.75">
+        <state line="1" column="0" selection-start="55" selection-end="55" vertical-scroll-proportion="0.049342107">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/main/app/ru/korgov/tasker/core/tasks/TasksService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="6" selection-start="52" selection-end="52" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/app/ru/korgov/tasker/controllers/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="31" selection-start="2298" selection-end="2298" vertical-scroll-proportion="0.0">
+        <state line="78" column="51" selection-start="2821" selection-end="2839" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="imports" expanded="true" />
+            <marker date="1368400660321" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..course..." />
+            <marker date="1368400660321" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..task..." />
+            <marker date="1368400660321" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..task..." />
+            <marker date="1368400660321" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1368400660321" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..task_type..." />
+            <marker date="1368400660321" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..task..." />
+            <marker date="1368400660321" expanded="true" signature="-1:-1" placeholder="select * fro..task_creator..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/regexp/src/ru/korgov/tasker/regexp/model/Task.java">
+    <entry file="file://$PROJECT_DIR$/main/app/ru/korgov/tasker/core/tasks/model/CourseInfo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="83" column="18" selection-start="2679" selection-end="2679" vertical-scroll-proportion="0.0">
+        <state line="14" column="0" selection-start="295" selection-end="669" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#363#375#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/script/tasks.sql">
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="0" selection-start="514" selection-end="514" vertical-scroll-proportion="-9.230769">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/app/ru/korgov/util/io/IOUtils.java">
+    <entry file="file://$PROJECT_DIR$/main/app/ru/korgov/tasker/core/tasks/model/CompleteTaskInfo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="0" selection-start="1014" selection-end="1014" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="36" column="6" selection-start="919" selection-end="919" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#748#918#0" expanded="true" />
+            <element signature="e#911#912#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/regexp/test/ru/korgov/tasker/regexp/serializer/JSONTaskSerialiserTest.java">
+    <entry file="file://$PROJECT_DIR$/main/public/stylesheets/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="48" selection-start="404" selection-end="404" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/regexp/src/ru/korgov/tasker/regexp/serializer/JSONTaskSerialiser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="0" selection-start="2096" selection-end="2096" vertical-scroll-proportion="0.0">
+        <state line="56" column="10" selection-start="910" selection-end="919" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/common/app/ru/korgov/util/collection/CollectionUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="0" selection-start="1827" selection-end="1827" vertical-scroll-proportion="0.0">
+        <state line="159" column="50" selection-start="5090" selection-end="5090" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/app/ru/korgov/util/JSONUtils.java">
+    <entry file="file://$PROJECT_DIR$/main/app/views/course.scala.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="0" selection-start="762" selection-end="762" vertical-scroll-proportion="0.0">
+        <state line="48" column="37" selection-start="2241" selection-end="2241" vertical-scroll-proportion="-13.75">
           <folding>
-            <element signature="e#697#705#0" expanded="true" />
+            <element signature="e#64#121#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/app/org/json/JSONObject.java">
+    <entry file="file://$PROJECT_DIR$/main/conf/tasker-services.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="139" column="31" selection-start="5862" selection-end="5862" vertical-scroll-proportion="0.0">
+        <state line="18" column="36" selection-start="1054" selection-end="1074" vertical-scroll-proportion="-9.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/app/org/json/JSONArray.java">
+    <entry file="file://$PROJECT_DIR$/main/app/ru/korgov/tasker/core/tasks/model/TaskCreatorInfo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="544" column="0" selection-start="18282" selection-end="18282" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/app/ru/korgov/util/UrlUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="25" selection-start="283" selection-end="283" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/regexp/src/ru/korgov/tasker/regexp/MainTaskClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="19" selection-start="371" selection-end="371" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/regexp/src/ru/korgov/tasker/regexp/TaskClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="72" column="35" selection-start="2354" selection-end="2354" vertical-scroll-proportion="1.7133621">
+        <state line="11" column="19" selection-start="245" selection-end="245" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="e#1895#2378#0" expanded="true" />
-            <element signature="e#2367#2368#0" expanded="true" />
-            <element signature="e#4609#4730#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#926#1303#0" expanded="true" />
+            <element signature="e#939#956#0" expanded="true" />
+            <element signature="e#1296#1297#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/target/scala-2.10/src_managed/main/views/html/course.template.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="74" column="0" selection-start="3869" selection-end="3869" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/app/ru/korgov/tasker/core/tasks/model/Task.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="13" selection-start="259" selection-end="259" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://db-console:/72a581d0/dc4442c4-89e0-4db2-8762-82757eef74c6/">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="57" column="0" selection-start="2823" selection-end="2823" vertical-scroll-proportion="-7.793103">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/app/ru/korgov/tasker/core/tasks/model/TaskType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="18" selection-start="1280" selection-end="1280" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#303#667#0" expanded="true" />
+            <element signature="e#660#661#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/app/ru/korgov/tasker/controllers/ShowCourseController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="70" column="59" selection-start="2837" selection-end="2837" vertical-scroll-proportion="0.6111111">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1870#2394#0" expanded="true" />
+            <element signature="e#2363#2364#0" expanded="true" />
+            <element signature="e#2676#2861#0" expanded="true" />
+            <element signature="e#2850#2851#0" expanded="true" />
+            <element signature="e#3005#3017#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -952,6 +1577,7 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -994,11 +1620,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>regexp</last-edited>
+          <last-edited>common-util</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>

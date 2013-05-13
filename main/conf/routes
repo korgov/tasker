@@ -9,6 +9,7 @@ GET     /test                       ru.korgov.tasker.controllers.Application.tes
 GET     /test2                      ru.korgov.tasker.controllers.Application.test2()
 GET     /users                      ru.korgov.tasker.core.app.spring.ControllersFactory.fromContext(name="showAllUsers")
 GET     /tasks                      ru.korgov.tasker.core.app.spring.ControllersFactory.fromContext(name="showAllTasks")
+GET     /course                     ru.korgov.tasker.core.app.spring.ControllersFactory.fromContext(name="showCourseController")
 GET     /bean/*name                 ru.korgov.tasker.core.app.spring.ControllersFactory.fromContext(name)
 
 # Map static resources from the /public folder to the /assets URL path

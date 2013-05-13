@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FuGenConfigurationKL">
+    <option name="properties">
+      <list>
+        <GeneratorPropertiesState>
+          <option name="fuClassName" value="ru.korgov.util.func.Function" />
+        </GeneratorPropertiesState>
+      </list>
+    </option>
+  </component>
+</project>
+

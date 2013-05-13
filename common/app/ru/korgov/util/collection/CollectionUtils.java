@@ -143,11 +143,24 @@ public class CollectionUtils {
         return fu.map(src);
     }
 
+    public static <F, T> List<T> map(final Function<F, T> fu, final Iterable<? extends F> src) {
+        return fu.map(src);
+    }
+
 
     public static <T, K, V> Map<K, V> mapFromIterable(final Function<T, K> k, final Function<T, V> v, final Iterable<T> src) {
         final Map<K, V> out = Cf.newMap();
         for (final T t : src) {
             out.put(k.apply(t), v.apply(t));
+        }
+        return out;
+    }
+
+
+    public static <T, K, V> Map<K, List<V>> multiMapFromIterable(final Function<T, K> k, final Function<T, V> v, final Iterable<T> src) {
+        final Map<K, List<V>> out = Cf.newMap();
+        for (final T t : src) {
+            appendToMultiMap(out, k.apply(t), v.apply(t));
         }
         return out;
     }
@@ -235,4 +248,5 @@ public class CollectionUtils {
             }
         }, defaultValue);
     }
+
 }

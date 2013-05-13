@@ -1,4 +1,4 @@
-package ru.korgov.tasker.core.tasks;
+package ru.korgov.tasker.core.tasks.model;
 
 import org.springframework.jdbc.core.simple.ParameterizedRowMapper;
 
@@ -14,12 +14,18 @@ public class Task {
     private long taskTypeId;
     private long courseId;
     private String jsonMetaInfo;
+    private String title;
 
-    public Task(long id, long taskType, long courseId, String jsonMetaInfo) {
+    public Task(long id, long taskType, long courseId, String jsonMetaInfo, final String title) {
         this.id = id;
         this.taskTypeId = taskType;
         this.courseId = courseId;
         this.jsonMetaInfo = jsonMetaInfo;
+        this.title = title;
+    }
+
+    public String getTitle() {
+        return title;
     }
 
     public long getTaskTypeId() {
@@ -45,7 +51,8 @@ public class Task {
                     rs.getLong("id"),
                     rs.getLong("type_id"),
                     rs.getLong("course_id"),
-                    rs.getString("info")
+                    rs.getString("info"),
+                    rs.getString("title")
             );
         }
     };

@@ -1,0 +1,59 @@
+@(res: ru.korgov.tasker.controllers.ShowCourseController.Res)
+
+@import ru.korgov.tasker.core.tasks.model.CompleteTaskInfo
+@import ru.korgov.tasker.core.tasks.model.TaskType
+@import ru.korgov.tasker.core.tasks.model.CourseInfo
+@import ru.korgov.tasker.core.tasks.model.TaskCreatorInfo
+
+@main(res.getTitle) {
+
+    <table id="main-table">
+        <tr>
+            <td id="left-menu">
+                <ul>
+                @for(course: CourseInfo <- res.getAllCourses) {
+                    <li><a class="left-menu-item" href="course?course-id=@course.getId">@course.getTitle</a></li>
+                }
+                </ul>
+            </td>
+            <td id="main-content">
+            @if(res.getSelectedCourse.hasValue) {
+            <div class="paragraph">
+                <div class="head-title">@res.getSelectedCourse.getValue.getTitle</div>
+                <div class="head-desc">@res.getSelectedCourse.getValue.getDesc</div>
+            </div>
+
+                @if(!res.getTaskInfos.isEmpty) {
+                    <div class="sub-title">Создание заданий</div>
+                    <ul>
+                    @for(creator: TaskCreatorInfo <- res.getTaskCreatorInfos) {
+                        <li>
+                            <a class="course-creator-item"
+                            href="task-creator?course-id=@(res.getSelectedCourse.getValue.getId)&amp;creator-id=@creator.getId">@creator.getDesc</a>
+                        </li>
+                    }
+                    </ul>
+                }
+
+                @if(!res.getTaskInfos.isEmpty) {
+                    <div class="sub-title">Выполнение заданий</div>
+                    <ul>
+                    @for(group: java.util.Map.Entry[TaskType, List[CompleteTaskInfo]] <- res.getTaskInfos.entrySet()) {
+                        <li>
+                            <div>
+                                <div class="sub-title">@group.getKey.getDesc</div>
+                                <ul>
+                                @for(task: CompleteTaskInfo <- group.getValue){
+                                    <li><a class="course-task-item" href="task?task-id=@task.getTask.getId">@task.getTask.getTitle</a></li>
+                                }
+                                </ul>
+                            </div>
+                        </li>
+                    }
+                    </ul>
+                }
+            }
+            </td>
+        </tr>
+    </table>
+}
