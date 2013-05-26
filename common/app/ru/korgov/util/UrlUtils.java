@@ -1,8 +1,9 @@
 package ru.korgov.util;
 
+import org.jetbrains.annotations.Nullable;
 import ru.korgov.util.io.IOUtils;
 
-import java.io.*;
+import java.io.IOException;
 import java.net.URL;
 import java.net.URLConnection;
 
@@ -15,9 +16,21 @@ public class UrlUtils {
     private UrlUtils() {
     }
 
-    public static String sendPostRequest(final String url, final String query) throws IOException {
+    public static String sendGetRequest(final String url) throws IOException {
+        final URLConnection urlConnection = new URL(url).openConnection();
+        return read(urlConnection);
+    }
+
+    public static String sendPostRequest(final String url, final String data) throws IOException {
+        return sendPostRequest(url, data, null);
+    }
+
+    public static String sendPostRequest(final String url, final String data, final @Nullable String contentType) throws IOException {
         final URLConnection urlConnection = createPostConnection(url);
-        write(urlConnection, query);
+        if(contentType != null){
+            urlConnection.setRequestProperty("Content-Type", contentType);
+        }
+        write(urlConnection, data);
         return read(urlConnection);
     }
 

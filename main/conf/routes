@@ -10,7 +10,13 @@ GET     /test2                      ru.korgov.tasker.controllers.Application.tes
 GET     /users                      ru.korgov.tasker.core.app.spring.ControllersFactory.fromContext(name="showAllUsers")
 GET     /tasks                      ru.korgov.tasker.core.app.spring.ControllersFactory.fromContext(name="showAllTasks")
 GET     /course                     ru.korgov.tasker.core.app.spring.ControllersFactory.fromContext(name="showCourseController")
+GET     /runTask                    ru.korgov.tasker.core.app.spring.ControllersFactory.fromContext(name="buildTaskJnlpController")
+GET     /editTasks                  ru.korgov.tasker.core.app.spring.ControllersFactory.fromContext(name="buildCreatorJnlpController")
+GET     /loadTasks                  ru.korgov.tasker.core.app.spring.ControllersFactory.fromContext(name="loadTasksByTypeController")
 GET     /bean/*name                 ru.korgov.tasker.core.app.spring.ControllersFactory.fromContext(name)
+
+POST     /saveTasks            ru.korgov.tasker.core.app.spring.ControllersFactory.fromContext(name="editTasksController")
+POST     /checkTask                 ru.korgov.tasker.core.app.spring.ControllersFactory.fromContext(name="checkTaskController")
 
 # Map static resources from the /public folder to the /assets URL path
 GET     /assets/*file               controllers.Assets.at(path="/public", file)

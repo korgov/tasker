@@ -12,8 +12,8 @@ http://www.springframework.org/schema/context http://www.springframework.org/sch
 
     <bean class="org.springframework.beans.factory.annotation.RequiredAnnotationBeanPostProcessor"/>
 
-    <import resource="tasker-db-config.xml"/>
-    <import resource="tasker-services.xml"/>
-    <import resource="regexp-module-config.xml"/>
+    <bean name="stringListTaskChecker" class="ru.korgov.tasker.modules.regexp.StringListTaskChecker"/>
+
+    <bean name="regExpTaskSerialiser" class="ru.korgov.tasker.regexp.serializer.RegExpJSONTaskSerialiser"/>
 
 </beans>

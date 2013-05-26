@@ -1,0 +1,17 @@
+@(res: ru.korgov.tasker.controllers.jnlp.JnlpRes)<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0+" codebase="http://@res.getHostname/assets/jars/" href="">
+    <information>
+        <title>@res.getDescr</title>
+        <vendor>Tasker</vendor>
+    </information>
+    <resources>
+        <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+        <jar href="@res.getJarName" main="true"/>
+    </resources>
+    <application-desc name="JNLP Test KL App" main-class="@res.getFullClassName">
+        @for(arg <- res.getArgs) {
+            <argument>@arg</argument>
+        }
+    </application-desc>
+    <update check="background"/>
+</jnlp>

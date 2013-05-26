@@ -10,8 +10,8 @@ public class JSONTaskSerialiserTest {
     @org.junit.Test
     public void testXXX() throws Exception {
 
-        final JSONTaskSerialiser jsonTaskSerialiser = new JSONTaskSerialiser("http://localhost:9000/assets/jars/tasks.tsk");
-        System.out.println(jsonTaskSerialiser.readTasks());
+//        final RegExpJSONTaskSerialiser jsonTaskSerialiser = new RegExpJSONTaskSerialiser("http://localhost:9000/assets/jars/tasks.tsk");
+//        System.out.println(jsonTaskSerialiser.readTasks());
 
     }
 }

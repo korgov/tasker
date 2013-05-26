@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <beans default-autowire="byName"
        default-lazy-init="false"
        xmlns="http://www.springframework.org/schema/beans"
@@ -17,5 +18,12 @@ http://www.springframework.org/schema/context http://www.springframework.org/sch
     <bean name="showAllUsers" class="ru.korgov.tasker.controllers.ShowAllUsers"/>
     <bean name="showAllTasks" class="ru.korgov.tasker.controllers.ShowAllTasks"/>
     <bean name="showCourseController" class="ru.korgov.tasker.controllers.ShowCourseController"/>
+
+    <bean name="buildTaskJnlpController" class="ru.korgov.tasker.controllers.BuildTaskJnlpController"/>
+    <bean name="checkTaskController" class="ru.korgov.tasker.controllers.CheckTaskController"/>
+
+    <bean name="buildCreatorJnlpController" class="ru.korgov.tasker.controllers.BuildCreatorJnlpController"/>
+    <bean name="loadTasksByTypeController" class="ru.korgov.tasker.controllers.LoadTasksByTypeController"/>
+    <bean name="editTasksController" class="ru.korgov.tasker.controllers.EditTasksController"/>
 
 </beans>

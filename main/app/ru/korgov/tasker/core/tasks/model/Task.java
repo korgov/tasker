@@ -1,6 +1,9 @@
 package ru.korgov.tasker.core.tasks.model;
 
+import org.json.JSONException;
+import org.json.JSONObject;
 import org.springframework.jdbc.core.simple.ParameterizedRowMapper;
+import ru.korgov.util.func.Function;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -15,6 +18,33 @@ public class Task {
     private long courseId;
     private String jsonMetaInfo;
     private String title;
+
+    public static final Function<Task, Long> TO_ID = new Function<Task, Long>() {
+        @Override
+        public Long apply(final Task arg) {
+            return arg.getId();
+        }
+    };
+
+    public JSONObject asJson() throws JSONException {
+        final JSONObject out = new JSONObject();
+        out.put("id", id);
+        out.put("type-id", taskTypeId);
+        out.put("course-id", courseId);
+        out.put("info", new JSONObject(jsonMetaInfo));
+        out.put("title", title);
+        return out;
+    }
+
+    public static Task fromJson(JSONObject task) throws JSONException {
+        return new Task(
+                task.getLong("id"),
+                task.getLong("type-id"),
+                task.getLong("course-id"),
+                task.getString("info"),
+                task.getString("title")
+        );
+    }
 
     public Task(long id, long taskType, long courseId, String jsonMetaInfo, final String title) {
         this.id = id;
@@ -54,6 +84,17 @@ public class Task {
                     rs.getString("info"),
                     rs.getString("title")
             );
+        }
+    };
+
+    public static final Function<Task, JSONObject> TO_JSON = new Function<Task, JSONObject>() {
+        @Override
+        public JSONObject apply(final Task arg) {
+            try {
+                return arg.asJson();
+            } catch (JSONException e) {
+                throw new RuntimeException(e);
+            }
         }
     };
 }

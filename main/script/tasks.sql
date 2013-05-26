@@ -7,7 +7,8 @@ create table task_type (
   id bigint primary key auto_increment,
   description varchar(4000),
   view_info varchar(4000) not null,
-  solve_info varchar(4000) not null
+  solve_info varchar(4000) not null,
+  create_info varchar(4000) not null
 );
 
 drop table course;
@@ -18,13 +19,14 @@ create table course (
   description varchar(4000)
 );
 
+drop table task_creator;
 create table task_creator (
-  id bigint primary key auto_increment,
   course_id bigint not null,
-  description varchar(4000),
-  info varchar(4000),
+  task_type_id bigint not null,
+  descr varchar(4000),
 
-  constraint foreign key (course_id) references course(id)
+  constraint foreign key (course_id) references course(id),
+  constraint foreign key (task_type_id) references task_type(id)
 
 );
 

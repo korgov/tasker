@@ -1,5 +1,7 @@
 package ru.korgov.tasker.core.tasks.model;
 
+import org.json.JSONException;
+import org.json.JSONObject;
 import org.springframework.jdbc.core.RowMapper;
 
 import java.sql.ResultSet;
@@ -17,6 +19,7 @@ public class TaskType {
                     rs.getLong("id"),
                     rs.getString("view_info"),
                     rs.getString("solve_info"),
+                    rs.getString("create_info"),
                     rs.getString("description")
             );
         }
@@ -25,12 +28,24 @@ public class TaskType {
     private long typeId;
     private String viewInfoAsJson;
     private String solveInfoAsJson;
+    private String createInfoAsJson;
     private String desc;
 
-    public TaskType(long typeId, String viewInfoAsJson, String solveInfoAsJson, String desc) {
+    public JSONObject asJson() throws JSONException {
+        final JSONObject out = new JSONObject();
+        out.put("id", typeId);
+        out.put("view-info", new JSONObject(viewInfoAsJson));
+        out.put("solve-info", new JSONObject(solveInfoAsJson));
+        out.put("create-info", new JSONObject(createInfoAsJson));
+        out.put("description", desc);
+        return out;
+    }
+
+    public TaskType(long typeId, String viewInfoAsJson, String solveInfoAsJson, final String createInfoAsJson, String desc) {
         this.typeId = typeId;
         this.viewInfoAsJson = viewInfoAsJson;
         this.solveInfoAsJson = solveInfoAsJson;
+        this.createInfoAsJson = createInfoAsJson;
         this.desc = desc;
     }
 
@@ -40,6 +55,10 @@ public class TaskType {
 
     public String getViewInfoAsJson() {
         return viewInfoAsJson;
+    }
+
+    public String getCreateInfoAsJson() {
+        return createInfoAsJson;
     }
 
     public String getSolveInfoAsJson() {

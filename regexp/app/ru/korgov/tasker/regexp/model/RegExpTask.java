@@ -1,5 +1,7 @@
 package ru.korgov.tasker.regexp.model;
 
+import ru.korgov.util.alias.Cf;
+
 import java.util.Collections;
 import java.util.List;
 
@@ -7,15 +9,17 @@ import java.util.List;
  * Author: Kirill Korgov (kirill@korgov.ru)
  * Date: 17.12.12
  */
-public class Task {
+public class RegExpTask {
     long id;
-    TaskType type;
+    RegExpTaskType type;
     String title;
     String description;
     List<String> sourceData;
     List<String> resultData;
 
-    public Task(final long id, final TaskType type, final String title, final String description, final List<String> sourceData, final List<String> resultData) {
+    public static final RegExpTask EMPTY = new RegExpTask(-1, RegExpTaskType.MATCH_FROM_LIST, "", "", Cf.<String>emptyL(), Cf.<String>emptyL());
+
+    public RegExpTask(final long id, final RegExpTaskType type, final String title, final String description, final List<String> sourceData, final List<String> resultData) {
         this.id = id;
         this.type = type;
         this.title = title;
@@ -24,15 +28,15 @@ public class Task {
         this.resultData = resultData;
     }
 
-    public static Task matchFromListTask(final long id, final String title, final String description, final List<String> sourceData, final List<String> resultData){
-        return new Task(id, TaskType.MATCH_FROM_LIST, title, description, sourceData, resultData);
+    public static RegExpTask matchFromListTask(final long id, final String title, final String description, final List<String> sourceData, final List<String> resultData){
+        return new RegExpTask(id, RegExpTaskType.MATCH_FROM_LIST, title, description, sourceData, resultData);
     }
 
     public long getId() {
         return id;
     }
 
-    public TaskType getType() {
+    public RegExpTaskType getType() {
         return type;
     }
 
@@ -57,7 +61,7 @@ public class Task {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
 
-        final Task task = (Task) o;
+        final RegExpTask task = (RegExpTask) o;
 
         if (id != task.id) return false;
         if (description != null ? !description.equals(task.description) : task.description != null) return false;
@@ -82,7 +86,7 @@ public class Task {
 
     @Override
     public String toString() {
-        return "Task{" +
+        return "RegExpTask{" +
                 "id=" + id +
                 ", type=" + type +
                 ", title='" + title + '\'' +

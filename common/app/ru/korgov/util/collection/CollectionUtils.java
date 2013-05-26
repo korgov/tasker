@@ -212,6 +212,19 @@ public class CollectionUtils {
         };
     }
 
+    public static <T> Pair<List<T>, List<T>> split(Iterable<? extends T> ts, Filter<T> f){
+        final List<T> fits = Cf.newList();
+        final List<T> notFits = Cf.newList();
+        for (final T t : ts) {
+            if(f.fits(t)){
+                fits.add(t);
+            } else {
+                notFits.add(t);
+            }
+        }
+        return Cf.pair(fits, notFits);
+    }
+
     public static <T> List<List<T>> split(Iterable<? extends T> ts, int chunkSize) {
         final List<List<T>> out = Cf.newList();
         final Iterator<? extends T> iterator = ts.iterator();

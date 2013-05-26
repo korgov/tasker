@@ -1,5 +1,8 @@
 package ru.korgov.tasker.regexp;
 
+import org.json.JSONObject;
+import ru.korgov.tasker.regexp.creators.TaskCreator;
+
 import javax.swing.*;
 import java.awt.*;
 
@@ -13,10 +16,9 @@ public class Main {
     }
 
     private static void creatorForm() {
-        final JFrame form = new JFrame("RegExp Tasker Creator");
-        final TaskCreator taskCreator = new TaskCreator(form,"http://localhost:9000/assets/jars/tasks.tsk");
-
-        form.setContentPane(taskCreator.getMainPanel());
+        final JFrame form = new JFrame("RegExp Task Creator");
+        final TaskCreator taskClient = new TaskCreator(form, "localhost:9000", "loadTasksByType?task-type-id=1", new JSONObject());
+        form.setContentPane(taskClient.getMainPanel());
         form.setMinimumSize(new Dimension(700, 550));
         form.pack();
         form.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);

@@ -29,7 +29,7 @@
                     @for(creator: TaskCreatorInfo <- res.getTaskCreatorInfos) {
                         <li>
                             <a class="course-creator-item"
-                            href="task-creator?course-id=@(res.getSelectedCourse.getValue.getId)&amp;creator-id=@creator.getId">@creator.getDesc</a>
+                            href="editTasks?course-id=@(res.getSelectedCourse.getValue.getId)&amp;task-type-id=@creator.getTaskTypeId">@creator.getDesc</a>
                         </li>
                     }
                     </ul>
@@ -44,7 +44,7 @@
                                 <div class="sub-title">@group.getKey.getDesc</div>
                                 <ul>
                                 @for(task: CompleteTaskInfo <- group.getValue){
-                                    <li><a class="course-task-item" href="task?task-id=@task.getTask.getId">@task.getTask.getTitle</a></li>
+                                    <li><a class="course-task-item" href="runTask?task-id=@task.getTask.getId">@task.getTask.getTitle</a></li>
                                 }
                                 </ul>
                             </div>

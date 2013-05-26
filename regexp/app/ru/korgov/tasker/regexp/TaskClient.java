@@ -1,9 +1,8 @@
 package ru.korgov.tasker.regexp;
 
-import ru.korgov.tasker.regexp.model.Task;
-import ru.korgov.tasker.regexp.model.TaskType;
-import ru.korgov.tasker.regexp.serializer.JSONTaskSerialiser;
-import ru.korgov.tasker.regexp.serializer.TaskSerialiser;
+import ru.korgov.tasker.regexp.model.RegExpTask;
+import ru.korgov.tasker.regexp.model.RegExpTaskType;
+import ru.korgov.tasker.regexp.serializer.RegExpTaskSerialiser;
 import ru.korgov.util.UrlUtils;
 import ru.korgov.util.alias.Cf;
 import ru.korgov.util.alias.Cu;
@@ -44,19 +43,20 @@ public class TaskClient {
     private JButton loadTasksButton;
     private JButton prevTaskButton;
     private JButton testAnswerButton;
+    private JButton сохранитьButton;
     private JButton nextTaskButton;
 
     private JLabel answerResultLabel;
 
-    private final List<Task> loadedTasks = new ArrayList<Task>();
-    private ListIterator<Task> currentTaskIter = loadedTasks.listIterator();
-    private Task currentTask = null;
+    private final List<RegExpTask> loadedTasks = new ArrayList<RegExpTask>();
+    private ListIterator<RegExpTask> currentTaskIter = loadedTasks.listIterator();
+    private RegExpTask currentTask = null;
 
-    private TaskSerialiser taskSerialiser;
+    private RegExpTaskSerialiser taskSerialiser;
 
     public TaskClient(final JFrame frame, final String tasksPath) {
         this.frame = frame;
-        this.taskSerialiser = new JSONTaskSerialiser(tasksPath);
+//        this.taskSerialiser = new RegExpJSONTaskSerialiser(tasksPath);
 
         initFrame();
 
@@ -99,12 +99,12 @@ public class TaskClient {
         }
     }
 
-    private List<Task> loadTasks() {
-        try {
-            return taskSerialiser.readTasks();
-        } catch (IOException e) {
-            JOptionPane.showMessageDialog(frame, e.getMessage(), "Ошибка при загрузке заданий!", JOptionPane.ERROR_MESSAGE);
-        }
+    private List<RegExpTask> loadTasks() {
+//        try {
+//            return taskSerialiser.readTasks();
+//        } catch (IOException e) {
+//            JOptionPane.showMessageDialog(frame, e.getMessage(), "Ошибка при загрузке заданий!", JOptionPane.ERROR_MESSAGE);
+//        }
         return Collections.emptyList();
 //        return Arrays.asList(
 //                Task.matchFromListTask(1L, "Задание №1",
@@ -197,7 +197,7 @@ public class TaskClient {
 
     private void showNextIfHas() {
         if (currentTaskIter.hasNext()) {
-            final Task next = currentTaskIter.next();
+            final RegExpTask next = currentTaskIter.next();
             currentTask = next.equals(currentTask) ? currentTaskIter.next() : next;
 
             if (!currentTaskIter.hasNext()) {
@@ -212,7 +212,7 @@ public class TaskClient {
 
     private void showPrevIfHas() {
         if (currentTaskIter.hasPrevious()) {
-            final Task previous = currentTaskIter.previous();
+            final RegExpTask previous = currentTaskIter.previous();
             currentTask = previous.equals(currentTask) ? currentTaskIter.previous() : previous;
             if (!currentTaskIter.hasPrevious()) {
                 currentTaskIter.next();
@@ -227,11 +227,11 @@ public class TaskClient {
         if (currentTask != null) {
             taskInfoPanel.setBorder(BorderFactory.createTitledBorder(currentTask.getTitle()));
             taskDescription.setText(wrapInHtml(currentTask.getDescription()));
-//        answerTextField.setText("");
+            answerTextField.setText("");
 
-            final TaskType type = currentTask.getType();
-            matchFromListPanel.setVisible(TaskType.MATCH_FROM_LIST == type);
-            if (type == TaskType.MATCH_FROM_LIST) {
+            final RegExpTaskType type = currentTask.getType();
+            matchFromListPanel.setVisible(RegExpTaskType.MATCH_FROM_LIST == type);
+            if (type == RegExpTaskType.MATCH_FROM_LIST) {
                 sourceList.setModel(new StringsListModel(currentTask.getSourceData()));
                 resultList.setModel(new StringsListModel(currentTask.getResultData()));
             }

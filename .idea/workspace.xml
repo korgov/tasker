@@ -2,69 +2,321 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="regexp:jar" />
+      <artifact name="regexpStringList:jar" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/app/ru/korgov/tasker/core/tasks/model/CompleteTaskInfo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/app/ru/korgov/tasker/core/tasks/model/CourseInfo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/FuGenConfigurationKL.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/app/ru/korgov/util/Parsers.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/app/ru/korgov/tasker/controllers/ShowCourseController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/app/ru/korgov/tasker/core/tasks/model/TaskCreatorInfo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/app/views/course.scala.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/app/views/xerror.scala.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/main/app/ru/korgov/tasker/core/tasks/Task.java" afterPath="$PROJECT_DIR$/main/app/ru/korgov/tasker/core/tasks/model/Task.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/main/app/ru/korgov/tasker/core/tasks/TaskType.java" afterPath="$PROJECT_DIR$/main/app/ru/korgov/tasker/core/tasks/model/TaskType.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/app/ru/korgov/tasker/controllers/BuildCreatorJnlpController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/app/ru/korgov/tasker/controllers/BuildTaskJnlpController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/app/ru/korgov/tasker/controllers/CheckTaskController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/app/ru/korgov/tasker/controllers/EditTasksController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/app/ru/korgov/tasker/controllers/jnlp/JnlpRes.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/app/ru/korgov/tasker/controllers/LoadTasksByTypeController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/regexp/app/ru/korgov/tasker/regexp/serializer/RegExpConstants.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/regexp/app/ru/korgov/tasker/regexp/serializer/RegExpJSONTaskSerialiser.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/regexp/app/ru/korgov/tasker/regexp/serializer/RegExpTaskSerialiser.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/regexp/app/ru/korgov/tasker/regexp/model/RegExpTestResult.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/regexp/app/ru/korgov/tasker/regexp/viewers/StringListTask.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/app/ru/korgov/tasker/modules/regexp/StringListTaskChecker.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/regexp/app/ru/korgov/tasker/regexp/viewers/StringListTaskMain.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/app/ru/korgov/tasker/modules/TaskChecker.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/regexp/app/ru/korgov/tasker/regexp/TaskClient.form" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/regexp/app/ru/korgov/tasker/regexp/creators/TaskCreatorMain.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/app/views/jnlpTemplate.scala.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/conf/regexp-module-config.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/regexp/src/ru/korgov/tasker/regexp/serializer/JSONTaskSerialiser.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/regexp/src/ru/korgov/tasker/regexp/serializer/TaskSerialiser.java" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/artifacts/regexp_jar.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/regexpStringList_jar.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/regexp/src/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/regexp/app/META-INF/MANIFEST.MF" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/regexp/src/ru/korgov/tasker/regexp/Main.java" afterPath="$PROJECT_DIR$/regexp/app/ru/korgov/tasker/regexp/Main.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/regexp/src/ru/korgov/tasker/regexp/MainTaskClient.java" afterPath="$PROJECT_DIR$/regexp/app/ru/korgov/tasker/regexp/MainTaskClient.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/regexp/src/ru/korgov/tasker/regexp/StringsListModel.java" afterPath="$PROJECT_DIR$/regexp/app/ru/korgov/tasker/regexp/StringsListModel.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/regexp/src/ru/korgov/tasker/regexp/TaskClient.form" afterPath="$PROJECT_DIR$/regexp/app/ru/korgov/tasker/regexp/viewers/StringListTask.form" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/regexp/src/ru/korgov/tasker/regexp/TaskClient.java" afterPath="$PROJECT_DIR$/regexp/app/ru/korgov/tasker/regexp/TaskClient.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/regexp/src/ru/korgov/tasker/regexp/TaskCreator.form" afterPath="$PROJECT_DIR$/regexp/app/ru/korgov/tasker/regexp/creators/TaskCreator.form" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/regexp/src/ru/korgov/tasker/regexp/TaskCreator.java" afterPath="$PROJECT_DIR$/regexp/app/ru/korgov/tasker/regexp/creators/TaskCreator.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/regexp/src/ru/korgov/tasker/regexp/model/Task.java" afterPath="$PROJECT_DIR$/regexp/app/ru/korgov/tasker/regexp/model/RegExpTask.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/regexp/src/ru/korgov/tasker/regexp/model/TaskType.java" afterPath="$PROJECT_DIR$/regexp/app/ru/korgov/tasker/regexp/model/RegExpTaskType.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/Build.scala" afterPath="$PROJECT_DIR$/project/Build.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/app/ru/korgov/util/collection/CollectionUtils.java" afterPath="$PROJECT_DIR$/common/app/ru/korgov/util/collection/CollectionUtils.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/app/ru/korgov/util/func/Functions.java" afterPath="$PROJECT_DIR$/common/app/ru/korgov/util/func/Functions.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/regexp/test/ru/korgov/tasker/regexp/serializer/JSONTaskSerialiserTest.java" afterPath="$PROJECT_DIR$/regexp/test/ru/korgov/tasker/regexp/serializer/JSONTaskSerialiserTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/app/ru/korgov/tasker/core/tasks/model/Task.java" afterPath="$PROJECT_DIR$/main/app/ru/korgov/tasker/core/tasks/model/Task.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/app/ru/korgov/tasker/core/tasks/model/TaskCreatorInfo.java" afterPath="$PROJECT_DIR$/main/app/ru/korgov/tasker/core/tasks/model/TaskCreatorInfo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/app/ru/korgov/tasker/core/tasks/model/TaskType.java" afterPath="$PROJECT_DIR$/main/app/ru/korgov/tasker/core/tasks/model/TaskType.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/app/ru/korgov/tasker/core/tasks/TasksService.java" afterPath="$PROJECT_DIR$/main/app/ru/korgov/tasker/core/tasks/TasksService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/public/stylesheets/main.css" afterPath="$PROJECT_DIR$/main/public/stylesheets/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/app/ru/korgov/util/UrlUtils.java" afterPath="$PROJECT_DIR$/common/app/ru/korgov/util/UrlUtils.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/conf/application-context.xml" afterPath="$PROJECT_DIR$/main/conf/application-context.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/app/views/course.scala.html" afterPath="$PROJECT_DIR$/main/app/views/course.scala.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/regexp/regexp.iml" afterPath="$PROJECT_DIR$/regexp/regexp.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/conf/routes" afterPath="$PROJECT_DIR$/main/conf/routes" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/app/views/task.scala.html" afterPath="$PROJECT_DIR$/main/app/views/task.scala.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/conf/tasker-db-config.xml" afterPath="$PROJECT_DIR$/main/conf/tasker-db-config.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/conf/tasker-services.xml" afterPath="$PROJECT_DIR$/main/conf/tasker-services.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/script/tasks.sql" afterPath="$PROJECT_DIR$/main/script/tasks.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/app/views/tasksList.scala.html" afterPath="$PROJECT_DIR$/main/app/views/tasksList.scala.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="tasker.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1368363308738" ignored="false" />
+    <file path="/Dummy.txt" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369601281171" ignored="false" />
     <file path="/test.scala.html" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1367706278418" ignored="false" />
     <file path="/Application.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1367705623389" ignored="false" />
     <file path="/test.scala.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1367705029629" ignored="false" />
-    <file path="/routes" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1368396788836" ignored="false" />
-    <file path="/a.dummy" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1367705304088" ignored="false" />
+    <file path="/routes" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369601852535" ignored="false" />
+    <file path="/a.dummy" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369602205320" ignored="false" />
     <file path="/.gitignore" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1367703812962" ignored="false" />
     <file path="/main2.scala.html" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1367705066188" ignored="false" />
     <file path="$PROJECT_DIR$/main/logs/application.log" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1367705646833" ignored="false" />
-    <file path="/JSONTaskSerialiser.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1367707349194" ignored="false" />
-    <file path="/fragment.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1367707707655" ignored="false" />
+    <file path="/JSONTaskSerialiser.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1368569627578" ignored="false" />
+    <file path="/fragment.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369601568859" ignored="false" />
     <file path="/JSONTaskSerialiserTest.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1367707063176" ignored="false" />
     <file path="/IOUtils.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1367707262875" ignored="false" />
     <file path="/TaskClient.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1367710279255" ignored="false" />
-    <file path="/tasks.sql" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1368398946150" ignored="false" />
-    <file path="/TaskType.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1368390686599" ignored="false" />
+    <file path="/tasks.sql" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369600013065" ignored="false" />
+    <file path="/TaskType.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369241070169" ignored="false" />
     <file path="/Course.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1368391365043" ignored="false" />
     <file path="/File Header.txt.ft" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1368391302801" ignored="false" />
-    <file path="/TaskCreator.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1368391439528" ignored="false" />
-    <file path="/TasksService.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1368400041872" ignored="false" />
+    <file path="/TaskCreator.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369603684147" ignored="false" />
+    <file path="/TasksService.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369602600506" ignored="false" />
     <file path="/ShowCourseController.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1368405120251" ignored="false" />
     <file path="/Parsers.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1368392226273" ignored="false" />
     <file path="/xerror.scala.html" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1368392548955" ignored="false" />
     <file path="/CompleteTaskInfo.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1368403524140" ignored="false" />
     <file path="/Functions.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1368393713414" ignored="false" />
-    <file path="/course.scala.html" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1368404766826" ignored="false" />
-    <file path="/a.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1368403494779" ignored="false" />
-    <file path="/Task.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1368395637355" ignored="false" />
-    <file path="/tasker" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1368405042395" ignored="false" />
-    <file path="/tasker-services.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1368396824128" ignored="false" />
+    <file path="/course.scala.html" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369599942760" ignored="false" />
+    <file path="/a.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369602220614" ignored="false" />
+    <file path="/Task.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369288308352" ignored="false" />
+    <file path="/tasker" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369603498533" ignored="false" />
+    <file path="/tasker-services.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369599086234" ignored="false" />
     <file path="/main.css" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1368403199170" ignored="false" />
     <file path="/CourseInfo.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1368398901420" ignored="false" />
-    <file path="/TaskCreatorInfo.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1368399951591" ignored="false" />
-    <file path="/CollectionUtils.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1368404298788" ignored="false" />
+    <file path="/TaskCreatorInfo.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369599842589" ignored="false" />
+    <file path="/CollectionUtils.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369578474514" ignored="false" />
+    <file path="/StringListTask.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369288777243" ignored="false" />
+    <file path="/CollectionFactory.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369315418356" ignored="false" />
+    <file path="/RegExpTestResult.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1368571343575" ignored="false" />
+    <file path="/TaskSerialiser.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1368573297537" ignored="false" />
+    <file path="/StringListTaskChecker.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1368574318958" ignored="false" />
+    <file path="/TaskChecker.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1368571740069" ignored="false" />
+    <file path="/RegExpConstants.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1368573503529" ignored="false" />
+    <file path="/RegExpJSONTaskSerialiser.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369285830433" ignored="false" />
+    <file path="/regexp-module-config.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1368574453550" ignored="false" />
+    <file path="/StringListTaskMain.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1368577699695" ignored="false" />
+    <file path="/BuildTaskJnlpController.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369287663568" ignored="false" />
+    <file path="/jnlpTemplate.scala.html" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369287689291" ignored="false" />
+    <file path="/Build.scala" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1368578314148" ignored="false" />
+    <file path="/CheckTaskController.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1368973901245" ignored="false" />
+    <file path="/UrlUtils.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369283755654" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/core/src/java/ru/yandex/common/framework/core/profile/RequestPercentileProfilerImpl.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369133638652" ignored="false" />
+    <file path="/RequestPercentileProfilerImpl.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369133281668" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/core/src/java/ru/yandex/common/framework/core/profile/RequestAggregateProfiler.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369144375085" ignored="false" />
+    <file path="/RequestAggregateProfiler.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369144242288" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/core/src/test/ru/yandex/common/framework/core/profile/RequestPercentileProfilerImplTest.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369133638652" ignored="false" />
+    <file path="/RequestPercentileProfilerImplTest.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369003973670" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/main/src/script/backa-actualization-services.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369596446736" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/main/src/java/ru/yandex/backa/actualization/control/report/UserWorkingTimeChecker.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369143249442" ignored="false" />
+    <file path="/UserWorkingTimeChecker.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369055225038" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/viewb/actualization/task/ubc/close-unprocessed-ubc-package-tasks.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369059306129" ignored="false" />
+    <file path="/close-unprocessed-ubc-package-tasks.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369058732646" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/viewb/actualization/task/ubc/close-unprocessed-ubc-package-tasks.xsl" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369059297923" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/main/src/java/ru/yandex/backa/actualization/control/report/QuotaReportServantlet.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369143249442" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/main/src/test/ru/yandex/backa/actualization/control/report/QuotaReportServiceTest2.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369130533901" ignored="false" />
+    <file path="/QuotaReportServiceTest2.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369130532133" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/main/src/test/test-QuotaReportServiceTest2.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369129959174" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/main/src/test/ru/yandex/backa/actualization/control/report/QuotaReportServantletTest2.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369133638652" ignored="false" />
+    <file path="/QuotaReportServantletTest2.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369130591180" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/main/src/test/test-QuotaReportServantletTest2.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369133638652" ignored="false" />
+    <file path="/test-QuotaReportServantletTest2.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369130681088" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/main/src/java/ru/yandex/backa/actualization/ResolveActTaskServantlet.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369388547850" ignored="false" />
+    <file path="/ResolveActTaskServantlet.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369147333904" ignored="false" />
+    <file path="/ActResolveQueueFactory.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369134204375" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/core/src/java/ru/yandex/backa/actualization/inbox/queue/ActResolveQueueFactory.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369144548855" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/core/src/java/ru/yandex/backa/actualization/inbox/queue/ActResolveItem.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369484720063" ignored="false" />
+    <file path="/ActResolveItem.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369146096801" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/core/src/java/ru/yandex/backa/tasker/actualization/model/InboxTaskStatus.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369577730150" ignored="false" />
+    <file path="/InboxTaskStatus.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369135152189" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/core/src/java/ru/yandex/backa/actualization/inbox/queue/ResolveActRequestProcessor.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369387315170" ignored="false" />
+    <file path="/ResolveActRequestProcessor.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369145910060" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/backa-admin/src/script/bean.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369387315168" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/core/src/script/backa-tasker-config.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369143249441" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/core/src/java/ru/yandex/backa/actualization/AbstractEditActEntityService.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369387592227" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/qbacka-main/src/script/qbacka-main-config.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369143249441" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/backa-export2/src/script/backa-export-db-config.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369143249441" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/qbacka-main/src/script/qbacka-main-db-config.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369143249441" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/backa-export2/src/script/bean.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369387315170" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/backa-export2/src/script/backa-export-config.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369387315171" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/core/src/script/backa-chain-unification-config.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369143249442" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/qbacka-main/src/script/qbacka-company-services.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369143249442" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/backa-admin/src/script/backa-auto-clusterization.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369143249442" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/main/src/script/backa-kdepot-config.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369143249442" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/backa-admin/src/script/backa-admin-config.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369143249442" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/core/src/java/ru/yandex/backa/tanker/session/target/AbstractTankerInfoProvider.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369137525710" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/core/src/script/backa-permission-config.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369143249442" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/backa-admin/src/script/backa-partner-quality-services.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369143249442" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/backa-admin/src/script/backa-newchains-services.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369143249442" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/backa-partner-scheduler/src/script/backa-partner-scheduler-config.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369143249442" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/core/src/script/backa-turkey-config.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369302063696" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/backa-scheduler/src/script/bean.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369387315170" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/backa-servantlets/src/script/backa-firstupload-services.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369143249442" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/backa-admin/src/script/qas/bean.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369143249442" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/backa-partner-scheduler/src/script/backa-partner-scheduler-tasks.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369302063696" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/core/src/java/ru/yandex/backa/tasker/actualization/applicator/AllInOneActApplicator.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369407350739" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/backa-partner-scheduler/src/script/bean.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369143249443" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/core/src/java/ru/yandex/backa/tasker/actualization/applicator/ActApplicationContext.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369137508313" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/qbacka-indexer/ivy.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369387592227" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/backa-scheduler/src/script/backa-scheduler-tasks.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369387315170" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/backa-entities-server/src/script/backa-server-config.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369143249443" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/backa-scheduler/src/script/backa-scheduler-mongo-pumper.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369143249443" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/core/src/script/backa-firstupload-config.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369143249443" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/backa-entities-server/src/script/bean.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369143249443" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/qbacka-core/src/script/qbacka-permlink-config.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369143249443" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/backa-scheduler/src/script/backa-scheduler-config.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369143249443" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/core/src/script/backa-feature-config.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369143249443" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/backa-scheduler/src/script/backa-scheduler-automoderation.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369143249443" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/backa-partner/src/script/backa-partner-upload-config.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369137525710" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/core/src/script/auto-cluster-config.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369137525710" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/backa-lbc-server/src/script/backa-lbc-db-services.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369143249443" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/main/ivy.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369387592227" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/core/src/script/kpi-fi4-services.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369137525710" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/backa-partner/src/script/backa-partner-services-config.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369143249443" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/core/src/script/backa-tasker-gen.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369407804021" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/qbacka-curator/src/script/qbacka-curator-servantlets.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369143249443" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/qbacka-curator/src/script/qbacka-curator-config.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369143249444" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/backa-partner/src/script/backa-partner-services.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369143249444" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/core/src/script/import-config.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369143249444" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/core/src/script/backa-dup-services.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369143249444" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/backa-lbc-server/src/script/backa-lbc-server-config.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369143249444" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/backa-partner/src/script/bean.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369143249444" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/qbacka-curator/src/script/qbacka-curator-db-config.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369143249444" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/qbacka-curator/src/script/bean.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369143249444" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/core/src/java/ru/yandex/backa/tasker/actualization/ActNotPhonedHistServiceImpl.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369387592227" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/backa-lbc-server/src/script/bean.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369143249444" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/core/src/java/ru/yandex/backa/tasker/actualization/ActInboxServiceImpl.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369407025187" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/backa-lbc/src/script/backa-lbc-services.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369143249444" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/main/src/test/ru/yandex/backa/actualization/ResolveActTaskServantletTest.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369137508315" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/main/src/test/test-feature-delete-helper-config.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369137525710" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/core/src/java/ru/yandex/backa/tasker/actualization/ActCompanyService.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369143249444" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/core/src/script/backa-kdepot-extra-processors-config.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369387315168" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/main/src/test/ru/yandex/backa/actualization/MarkCompanyAsDupServantletTest.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369137508315" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/backa-lbc/src/script/backa-lbc-config.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369143249444" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/public/src/test/ru/yandex/backa/publ/local/CreateSnapshotServantletTest.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369137508315" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/main/src/java/ru/yandex/backa/actualization/ActualizationDataProvider.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369388547850" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/core/ivy.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369387592227" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/main/src/java/ru/yandex/backa/actualization/RejectTaskServantlet.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369388547850" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/backa-reporter/src/script/backa-reporter-services.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369407804020" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/backa-lbc/src/script/bean.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369143249445" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/backa-reporter/src/script/bean.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369407804020" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/main/src/test/ru/yandex/backa/actualization/control/report/QuotaReportServantletTest.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369137508316" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/main/src/java/ru/yandex/backa/actualization/GetTaskBatchServantlet.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369388547850" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/core/src/java/ru/yandex/backa/tasker/actualization/ActCompanyServiceImpl.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369387315169" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/public/src/script/backa-public-config.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369143249445" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/main/src/java/ru/yandex/backa/actualization/AbstractProcessTaskServantlet.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369388547850" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/core/src/java/ru/yandex/backa/tasker/actualization/model/BatchType.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369137508316" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/public/src/script/bean.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369143249445" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/main/src/script/backa-task-services.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369137525710" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/core/src/java/ru/yandex/backa/tasker/actualization/model/ActTaskBatch.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369137508316" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/main/src/java/ru/yandex/backa/actualization/ActualizationDataProviderFactory.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369597369465" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/main/src/java/ru/yandex/backa/actualization/AbstractTaskBatchServantlet.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369596136894" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/main/src/script/backa-actualization-control-services.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369143249445" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/main/src/script/bean.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369407804020" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/core/src/java/ru/yandex/backa/tasker/service/TaskModerationService.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369143249445" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/main/src/script/backa-rubricator-service.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369143249446" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/core/src/script/backa-validators-config.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369302063696" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/main/src/script/backa-partner-services.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369143249446" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/backa-admin/src/script/backa-partner-delta-services.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369143249446" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/main/src/script/backa-main-config.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369388547850" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/core/src/java/ru/yandex/backa/export/address/snippet/SnippetAddressFormatter.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369143249442" ignored="false" />
+    <file path="/SnippetAddressFormatter.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369140653368" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/core/src/test/ru/yandex/backa/export/address/snippet/SnippetAddressFormatterTest.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369140687605" ignored="false" />
+    <file path="/SnippetAddressFormatterTest.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369140303082" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/core/src/test/test-SnippetAddressFormatterTest.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369140901850" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/.idea/inspectionProfiles/Paranoic.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369143249444" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/backa-export-delta/src/script/backa-export-queue-config.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369143249444" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/main/src/java/ru/yandex/backa/actualization/UserActTasksServantlet.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369388547850" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/core/src/java/ru/yandex/backa/unifier/LocalCompanyUnifier.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369143249445" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/core/src/java/ru/yandex/backa/tasker/actualization/ActInboxService.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369387592227" ignored="false" />
+    <file path="/UserActTasksServantlet.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369147804711" ignored="false" />
+    <file path="/GetTaskBatchServantlet.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369147878028" ignored="false" />
+    <file path="/TaskCreatorMain.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369286865495" ignored="false" />
+    <file path="/RegExpTaskSerialiser.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369284398169" ignored="false" />
+    <file path="/BuildCreatorJnlpController.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369603236738" ignored="false" />
+    <file path="/LoadTasksByTypeController.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369603115390" ignored="false" />
+    <file path="/Main.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369288678861" ignored="false" />
+    <file path="/EditTasksController.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369602635173" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/core/src/test/ru/yandex/backa/BackaCoreTestSuite.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369312661489" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/backa-scheduler/src/script/backa-tanker.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369387315170" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/core/ivy-build-proto.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369387575056" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/backa-admin/src/script/backa-bulker-services.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369387315169" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/backa-admin/src/script/backa-auto-turkey-clusterization.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369387315168" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/backa-admin/src/script/backa-chain-upload-services.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369387315168" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/backa-cacher/src/script/local-application.properties" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369312649964" ignored="false" />
+    <file path="$PROJECT_DIR$/../../playground/intellij/LazySpring/src/ru/korgov/intellij/lspr/LazySpringProjectComponent.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369312085563" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/backa-export-common/src/java/ru/yandex/backa/export/listeners/maps2/AbstractChainsNew.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369312661488" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/backa-export-common/src/java/ru/yandex/backa/export/listeners/maps2/AbstractCompaniesForMaps.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369312661488" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/backa-export2/src/java/ru/yandex/backa/export/listeners/maps2/CompaniesForMapsNew.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369312661489" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/main/src/java/ru/yandex/backa/actualization/AbstractEditActCompanyServantlet.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369388547850" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/core/src/java/ru/yandex/backa/turkey/MongoTurkeyUpdater.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369312661489" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/backa-export2/src/java/ru/yandex/backa/export/listeners/snippet/AbstractAddressSnippetter.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369312661490" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/core/src/java/ru/yandex/backa/tasker/gen/AbstractActualizationableTaskGenerator.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369312661490" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/backa-scheduler/src/java/ru/yandex/backa/tanker/session/CompanyNamesUpdater.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369312661490" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/backa-scheduler/src/java/ru/yandex/backa/tanker/session/RubricUpdater.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369312661490" ignored="false" />
+    <file path="$PROJECT_DIR$/../../playground/intellij/LazySpring/src/ru/korgov/intellij/lspr/properties/ui/PropertiesWindow.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369319439925" ignored="false" />
+    <file path="/PropertiesWindow.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369319242746" ignored="false" />
+    <file path="$PROJECT_DIR$/../../playground/intellij/LazySpring/common-src/ru/korgov/util/collection/CollectionFactory.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369318631051" ignored="false" />
+    <file path="$PROJECT_DIR$/../../playground/intellij/LazySpring/META-INF/plugin.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369319717796" ignored="false" />
+    <file path="/plugin.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369319712394" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/core/src/sql/act_resolve_queue.sql" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369387315168" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/core/src/java/ru/yandex/backa/tasker/actualization/batcher/GenerousTaskCutter.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369388547850" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/core/src/java/ru/yandex/backa/tasker/actualization/batcher/AbstractTaskBatcher.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369388547850" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/core/src/java/ru/yandex/backa/tasker/actualization/batcher/actualize/AbstractActRuleBatcher.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369393178957" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/core/src/java/ru/yandex/backa/tasker/actualization/SimilarFinder.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369387592227" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/core/src/java/ru/yandex/backa/actualization/ironlady/inbox/IronladyInboxedProcessorServiceImpl.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369387315168" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/core/src/java/ru/yandex/backa/features/Utils.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369387315168" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/core/src/java/ru/yandex/backa/tasker/actualization/batcher/feedback/verification/ChainVerificationTaskBatcher.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369388547850" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/core/src/java/ru/yandex/backa/tasker/actualization/SourcedEntityVisitor.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369387592227" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/core/src/java/ru/yandex/backa/common/queue/impl/oracle/AbstractOracleQueueFactory.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369387315169" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/main/src/java/ru/yandex/backa/actualization/GetSnapshotsByBatchServantlet.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369387575056" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/core/src/java/ru/yandex/backa/tasker/actualization/batcher/moderation/AbstractModerationTaskBatcher.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369388547850" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/core/src/java/ru/yandex/backa/tasker/actualization/SimilarHolder.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369387592227" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/core/src/java/ru/yandex/backa/search/query/CompanyQueryBuilder.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369387315170" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/core/src/java/ru/yandex/backa/tasker/actualization/ActSourcedCompaniesService.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369387315170" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/core/src/java/ru/yandex/backa/actualization/inbox/queue/ActResolveItemTranscoder.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369387315171" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/core/src/java/ru/yandex/backa/tasker/service/TaskService.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369387315171" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/main/src/java/ru/yandex/backa/actualization/EditActCompanyServantlet.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369388547850" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/core/src/java/ru/yandex/backa/tasker/actualization/ActNotPhonedHistService.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369387592227" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/core/src/java/ru/yandex/backa/geocontext/DbSnapshotService.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369387575056" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/address-base/src/script/dev-start.sh" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369387592227" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/main/src/java/ru/yandex/backa/actualization/control/report/QuotaReportService.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369394644423" ignored="false" />
+    <file path="/QuotaReportService.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369394088222" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/core/src/java/ru/yandex/backa/actualization/inbox/OperatorsConfig.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369394066784" ignored="false" />
+    <file path="/OperatorsConfig.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369394053200" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/core/src/script/backa-task-batchers-config.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369407804020" ignored="false" />
+    <file path="/ActInboxServiceImpl.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369407024242" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/.idea/dataSources.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369405694089" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/core/src/java/ru/yandex/backa/actualization/moderation/CloseModerationTasksServiceImpl.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369406899035" ignored="false" />
+    <file path="/CloseModerationTasksServiceImpl.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369405766671" ignored="false" />
+    <file path="/AllInOneActApplicator.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369407350065" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/core/src/java/ru/yandex/backa/actualization/control/ActTaskInfo.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369407804020" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/core/src/java/ru/yandex/backa/tasker/actualization/batcher/actualize/UploadByCallingTaskBatcher.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369407804020" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/core/src/java/ru/yandex/backa/upload/UploadByCallingConstants.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369407804020" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/core/src/java/ru/yandex/backa/tasker/actualization/model/geninfo/GenInfoBuilder.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369407804020" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/core/src/java/ru/yandex/backa/tasker/actualization/batcher/actualize/AccuracyTaskBatcher.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369407804021" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/core/src/java/ru/yandex/backa/tasker/actualization/batcher/actualize/ActualizationTaskBatcher.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369407804021" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/core/src/java/ru/yandex/backa/tasker/model/TaskTypeEnum.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369407804021" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/core/src/java/ru/yandex/backa/tasker/actualization/batcher/actualize/AbstractActualizationTaskBatcher.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369407804021" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/core/src/java/ru/yandex/backa/actualization/inbox/ProjectType.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369407804021" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/core/src/script/backa-actualization-config.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369407804021" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/core/src/java/ru/yandex/backa/quality/kpi/fi4/Facet.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369407804021" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/.idea/FuGenConfigurationKL.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369483928600" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/.gitignore" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369484129010" ignored="false" />
+    <file path="/ActualizationDataProviderFactory.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369597243600" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/main/src/java/ru/yandex/backa/actualization/PhoneInfoBlockRetriever.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369596107156" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/main/src/java/ru/yandex/backa/actualization/ActualizationDataProviderFactoryImpl.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369597369465" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/main/src/test/test-MarkCompanyAsDupServantletTest.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369596446736" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/main/src/java/ru/yandex/backa/calls/history/SavePhoneCallServantlet.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369596446736" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/main/src/java/ru/yandex/backa/actualization/ActualizationDataProviderDelegateFactory.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369597369465" ignored="false" />
+    <file path="/ActualizationDataProviderDelegateFactory.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369597042475" ignored="false" />
+    <file path="/a.sql" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369602246744" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,6 +324,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="USE_COMPILE_SERVER" value="false" />
+  </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -84,68 +339,7 @@
     <sortChildren value="false" />
   </component>
   <component name="DebuggerManager">
-    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
-      <breakpoint url="file://$PROJECT_DIR$/regexp/src/ru/korgov/tasker/regexp/serializer/JSONTaskSerialiser.java" line="32" class="ru.korgov.tasker.regexp.serializer.JSONTaskSerialiser" package="ru.korgov.tasker.regexp.serializer">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/common/app/ru/korgov/util/JSONUtils.java" line="24" class="ru.korgov.util.JSONUtils" package="ru.korgov.util">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/common/app/ru/korgov/util/JSONUtils.java" line="25" class="ru.korgov.util.JSONUtils" package="ru.korgov.util">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/common/app/org/json/JSONArray.java" line="379" class="org.json.JSONArray" package="org.json">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-    </line_breakpoints>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -182,7 +376,38 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint url="file://$PROJECT_DIR$/regexp/app/ru/korgov/tasker/regexp/creators/TaskCreatorMain.java" line="20" class="ru.korgov.tasker.regexp.creators.TaskCreatorMain" package="ru.korgov.tasker.regexp.creators">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/regexp/app/ru/korgov/tasker/regexp/creators/TaskCreator.java" line="90" class="ru.korgov.tasker.regexp.creators.TaskCreator$4" package="ru.korgov.tasker.regexp.creators">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </line_breakpoints>
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -192,57 +417,30 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ShowCourseController.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/main/app/ru/korgov/tasker/controllers/ShowCourseController.java">
+      <file leaf-file-name="TaskCreator.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/regexp/app/ru/korgov/tasker/regexp/creators/TaskCreator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="70" column="59" selection-start="2837" selection-end="2837" vertical-scroll-proportion="0.6111111">
+            <state line="206" column="32" selection-start="8762" selection-end="8762" vertical-scroll-proportion="2.1627908">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1870#2394#0" expanded="true" />
-                <element signature="e#2363#2364#0" expanded="true" />
-                <element signature="e#2676#2861#0" expanded="true" />
-                <element signature="e#2850#2851#0" expanded="true" />
-                <element signature="e#3005#3017#0" expanded="true" />
+                <element signature="e#2879#3127#0" expanded="true" />
+                <element signature="e#3116#3117#0" expanded="true" />
+                <element signature="e#5031#5636#0" expanded="true" />
+                <element signature="e#5625#5626#0" expanded="true" />
+                <element signature="e#6965#7167#0" expanded="true" />
+                <element signature="e#7156#7157#0" expanded="true" />
+                <element signature="e#8447#8899#0" expanded="true" />
+                <element signature="e#8888#8889#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="course.template.scala" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main/target/scala-2.10/src_managed/main/views/html/course.template.scala">
+      <file leaf-file-name="JSONObject.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/app/org/json/JSONObject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="74" column="0" selection-start="3869" selection-end="3869" vertical-scroll-proportion="0.0">
+            <state line="569" column="16" selection-start="20433" selection-end="20433" vertical-scroll-proportion="0.0">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CollectionUtils.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common/app/ru/korgov/util/collection/CollectionUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="159" column="50" selection-start="5090" selection-end="5090" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Task.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main/app/ru/korgov/tasker/core/tasks/model/Task.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="13" selection-start="259" selection-end="259" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TaskType.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main/app/ru/korgov/tasker/core/tasks/model/TaskType.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="18" selection-start="1280" selection-end="1280" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#303#667#0" expanded="true" />
-                <element signature="e#660#661#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -250,50 +448,80 @@
       <file leaf-file-name="tasker" pinned="false" current="false" current-in-tab="false">
         <entry file="dbDummy://db-console:/72a581d0/dc4442c4-89e0-4db2-8762-82757eef74c6/">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="57" column="0" selection-start="2823" selection-end="2823" vertical-scroll-proportion="-7.793103">
+            <state line="83" column="0" selection-start="4303" selection-end="4303" vertical-scroll-proportion="-2.862069">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TaskCreatorInfo.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main/app/ru/korgov/tasker/core/tasks/model/TaskCreatorInfo.java">
+      <file leaf-file-name="BuildCreatorJnlpController.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main/app/ru/korgov/tasker/controllers/BuildCreatorJnlpController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="19" selection-start="245" selection-end="245" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#926#1303#0" expanded="true" />
-                <element signature="e#939#956#0" expanded="true" />
-                <element signature="e#1296#1297#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tasker-services.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main/conf/tasker-services.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="36" selection-start="1054" selection-end="1074" vertical-scroll-proportion="-9.0">
+            <state line="43" column="77" selection-start="1738" selection-end="1747" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="course.scala.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main/app/views/course.scala.html">
+      <file leaf-file-name="MainTaskClient.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/regexp/app/ru/korgov/tasker/regexp/MainTaskClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="37" selection-start="2241" selection-end="2241" vertical-scroll-proportion="-13.75">
+            <state line="9" column="13" selection-start="159" selection-end="159" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StringListTaskMain.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/regexp/app/ru/korgov/tasker/regexp/viewers/StringListTaskMain.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="13" selection-start="227" selection-end="227" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoadTasksByTypeController.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main/app/ru/korgov/tasker/controllers/LoadTasksByTypeController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="40" column="31" selection-start="1338" selection-end="1338" vertical-scroll-proportion="0.0">
               <folding>
-                <element signature="e#64#121#0" expanded="true" />
+                <element signature="e#1454#1470#0" expanded="true" />
+                <element signature="e#1501#1517#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main/public/stylesheets/main.css">
+      <file leaf-file-name="routes" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main/conf/routes">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="56" column="10" selection-start="910" selection-end="919" vertical-scroll-proportion="0.0">
+            <state line="14" column="116" selection-start="1197" selection-end="1197" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EditTasksController.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main/app/ru/korgov/tasker/controllers/EditTasksController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="73" column="46" selection-start="3017" selection-end="3017" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#2023#2654#0" expanded="true" />
+                <element signature="e#2639#2640#0" expanded="true" />
+                <element signature="e#2741#3071#0" expanded="true" />
+                <element signature="e#3056#3057#0" expanded="true" />
+                <element signature="e#3127#3143#0" expanded="true" />
+                <element signature="e#3174#3190#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TaskClient.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/regexp/app/ru/korgov/tasker/regexp/TaskClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="22" selection-start="568" selection-end="568" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -317,22 +545,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/.idea/dataSources.xml" />
-        <option value="$PROJECT_DIR$/main/app/views/task.scala.html" />
-        <option value="$PROJECT_DIR$/main/app/views/tasksList.scala.html" />
+        <option value="$PROJECT_DIR$/regexp/app/ru/korgov/tasker/regexp/Main.java" />
+        <option value="$PROJECT_DIR$/regexp/app/ru/korgov/tasker/regexp/creators/TaskCreator.form" />
+        <option value="$PROJECT_DIR$/common/app/ru/korgov/util/collection/CollectionUtils.java" />
         <option value="$PROJECT_DIR$/main/conf/tasker-services.xml" />
-        <option value="$PROJECT_DIR$/main/conf/routes" />
-        <option value="$PROJECT_DIR$/main/app/ru/korgov/tasker/core/tasks/model/CourseInfo.java" />
+        <option value="$PROJECT_DIR$/main/app/views/course.scala.html" />
         <option value="$PROJECT_DIR$/main/script/tasks.sql" />
         <option value="$PROJECT_DIR$/main/app/ru/korgov/tasker/core/tasks/model/TaskCreatorInfo.java" />
+        <option value="$PROJECT_DIR$/regexp/app/ru/korgov/tasker/regexp/creators/TaskCreatorMain.java" />
+        <option value="$PROJECT_DIR$/main/app/ru/korgov/tasker/core/tasks/model/Task.java" />
         <option value="$PROJECT_DIR$/main/app/ru/korgov/tasker/core/tasks/TasksService.java" />
-        <option value="$PROJECT_DIR$/main/public/stylesheets/main.css" />
-        <option value="$PROJECT_DIR$/main/app/ru/korgov/tasker/core/tasks/model/TaskType.java" />
-        <option value="$PROJECT_DIR$/main/app/ru/korgov/tasker/core/tasks/model/CompleteTaskInfo.java" />
-        <option value="$PROJECT_DIR$/common/app/ru/korgov/util/collection/CollectionUtils.java" />
-        <option value="$PROJECT_DIR$/main/app/views/course.scala.html" />
+        <option value="$PROJECT_DIR$/main/app/ru/korgov/tasker/controllers/EditTasksController.java" />
+        <option value="$PROJECT_DIR$/main/app/ru/korgov/tasker/controllers/LoadTasksByTypeController.java" />
+        <option value="$PROJECT_DIR$/main/app/ru/korgov/tasker/controllers/BuildCreatorJnlpController.java" />
+        <option value="$PROJECT_DIR$/main/conf/routes" />
         <option value="db-console:/72a581d0/dc4442c4-89e0-4db2-8762-82757eef74c6/" />
-        <option value="$PROJECT_DIR$/main/app/ru/korgov/tasker/controllers/ShowCourseController.java" />
+        <option value="$PROJECT_DIR$/regexp/app/ru/korgov/tasker/regexp/creators/TaskCreator.java" />
       </list>
     </option>
   </component>
@@ -743,13 +971,125 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="tasker" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tasker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="regexp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tasker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="regexp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="regexp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tasker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="regexp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="regexp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="viewers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tasker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="regexp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="regexp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="creators" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TaskCreator" />
+              <option name="myItemType" value="com.intellij.uiDesigner.projectView.FormNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tasker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="regexp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="regexp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="creators" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tasker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="regexp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -786,56 +1126,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stylesheets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tasker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tasker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jars" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tasker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="conf" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -853,10 +1143,6 @@
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -873,140 +1159,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="tasker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tasker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tasker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="core" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="users" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tasker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tasker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="core" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="users" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tasker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tasker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="core" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tasks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tasker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tasker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="core" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tasks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tasker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tasker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="core" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1042,59 +1194,31 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tasker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="common" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="util" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tasker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="common" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="Console.TableResult.DefaultCopyAction" value="SQL Insert Statements" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/main/app/ru/korgov/tasker/controllers" />
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="options.lastSelected" value="ru.korgov.intellij.fugen.FuGenProjectComponent" />
+    <property name="options.lastSelected" value="preferences.sourceCode.SQL" />
     <property name="last_opened_file_path" value="/usr/local/soft/play-2.1.1/repository/local/play/play_2.10/2.1.1/srcs/play_2.10-sources.jar!/" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="GoToClass.includeJavaFiles" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="false" />
+    <property name="restartRequiresConfirmation" value="true" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
@@ -1121,15 +1245,100 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ru.korgov.tasker.controllers" />
+      <recent name="ru.korgov.tasker.regexp.creators" />
+      <recent name="ru.korgov.tasker.regexp.viewers" />
+      <recent name="ru.korgov.tasker.regexp.model" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/main/app/views" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/regexp/app/ru/korgov/tasker/regexp/creators" />
       <recent name="$PROJECT_DIR$/main/app/views" />
       <recent name="$PROJECT_DIR$/main/app/views/xml" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.JSONTaskSerialiserTest.testXXX">
+  <component name="RunManager" selected="Application.TaskCreatorMain">
+    <configuration default="false" name="StringListTaskMain" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="ru.korgov.tasker.regexp.viewers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="ru.korgov.tasker.regexp.viewers.StringListTaskMain" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="&quot;{\&quot;hostname\&quot;:\&quot;localhost:9000\&quot;,\&quot;task-context\&quot;:{\&quot;info\&quot;:{\&quot;id\&quot;:3,\&quot;result\&quot;:[\&quot;xxx\&quot;,\&quot;пока\&quot;,\&quot;Акрополь\&quot;,\&quot;Мама\&quot;],\&quot;title\&quot;:\&quot;Задание №3\&quot;,\&quot;source\&quot;:[\&quot;привет\&quot;,\&quot;пока\&quot;,\&quot;Акрополь\&quot;,\&quot;Мама\&quot;],\&quot;type\&quot;:\&quot;MATCH_FROM_LIST\&quot;,\&quot;descr\&quot;:\&quot;Любое слово в котором есть буква А/а\&quot;}}}&quot;" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="regexp" />
+      <envs />
+      <RunnerSettings RunnerId="Profile ">
+        <option name="myExternalizedOptions" value="&#10;additional-options2=onexit\=snapshot&#10;" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="ru.korgov.tasker.regexp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="ru.korgov.tasker.regexp.Main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="regexp" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="TaskCreatorMain" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="ru.korgov.tasker.regexp.creators.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="ru.korgov.tasker.regexp.creators.TaskCreatorMain" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="{\&quot;tasks-data-query\&quot;:\&quot;loadTasksByType?task-type-id=1\&quot;,\&quot;hostname\&quot;:\&quot;localhost:9000\&quot;,\&quot;meta-info\&quot;:{\&quot;course-id\&quot;:1,\&quot;type-id\&quot;:1}}" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="regexp" />
+      <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Profile ">
+        <option name="myExternalizedOptions" value="&#10;additional-options2=onexit\=snapshot&#10;" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
     <configuration default="false" name="JSONTaskSerialiserTest.testXXX" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -1283,12 +1492,18 @@
       <option name="CONTEXT_PROVIDER" />
       <method />
     </configuration>
-    <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.JSONTaskSerialiserTest.testXXX" />
+    <list size="4">
+      <item index="0" class="java.lang.String" itemvalue="Application.StringListTaskMain" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Main" />
+      <item index="2" class="java.lang.String" itemvalue="Application.TaskCreatorMain" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.JSONTaskSerialiserTest.testXXX" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.JSONTaskSerialiserTest.testXXX" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Application.TaskCreatorMain" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Main" />
+        <item index="2" class="java.lang.String" itemvalue="Application.StringListTaskMain" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.JSONTaskSerialiserTest.testXXX" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -1319,38 +1534,42 @@
       <created>1367712144223</created>
       <updated>1367712144223</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="upd">
+      <created>1368409993430</created>
+      <updated>1368409993430</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="25" width="1368" height="744" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32715008" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29393938" sideWeight="0.73187184" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4030354" sideWeight="0.49924242" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3726813" sideWeight="0.7469697" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.7133221" sideWeight="0.49848485" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.084848486" sideWeight="0.73187184" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18939394" sideWeight="0.5969646" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.08409091" sideWeight="0.70994943" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31703204" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.67116356" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18560606" sideWeight="0.2866779" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26812816" sideWeight="0.5007576" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.45531198" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.7048904" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4283305" sideWeight="0.6128788" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2497332" sideWeight="0.67071825" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26969698" sideWeight="0.5969646" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3288364" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24621212" sideWeight="0.2866779" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2900506" sideWeight="0.6212121" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27272728" sideWeight="0.70994943" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1420,148 +1639,148 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/main/public/jars/tasks.tsk">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="193" selection-start="702" selection-end="891" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/app/views/tasksList.scala.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="55" selection-end="55" vertical-scroll-proportion="0.049342107">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/app/ru/korgov/tasker/core/tasks/TasksService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="78" column="51" selection-start="2821" selection-end="2839" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1368400660321" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..course..." />
-            <marker date="1368400660321" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..task..." />
-            <marker date="1368400660321" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..task..." />
-            <marker date="1368400660321" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-            <marker date="1368400660321" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..task_type..." />
-            <marker date="1368400660321" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..task..." />
-            <marker date="1368400660321" expanded="true" signature="-1:-1" placeholder="select * fro..task_creator..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/app/ru/korgov/tasker/core/tasks/model/CourseInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="295" selection-end="669" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#363#375#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/script/tasks.sql">
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="0" selection-start="514" selection-end="514" vertical-scroll-proportion="-9.230769">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/app/ru/korgov/tasker/core/tasks/model/CompleteTaskInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="6" selection-start="919" selection-end="919" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#748#918#0" expanded="true" />
-            <element signature="e#911#912#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/public/stylesheets/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="10" selection-start="910" selection-end="919" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/app/ru/korgov/util/collection/CollectionUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="159" column="50" selection-start="5090" selection-end="5090" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/app/views/course.scala.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="37" selection-start="2241" selection-end="2241" vertical-scroll-proportion="-13.75">
-          <folding>
-            <element signature="e#64#121#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/conf/tasker-services.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="36" selection-start="1054" selection-end="1074" vertical-scroll-proportion="-9.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main/app/ru/korgov/tasker/core/tasks/model/TaskCreatorInfo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="19" selection-start="245" selection-end="245" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#926#1303#0" expanded="true" />
-            <element signature="e#939#956#0" expanded="true" />
-            <element signature="e#1296#1297#0" expanded="true" />
-          </folding>
+        <state line="34" column="53" selection-start="797" selection-end="797" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/javase6u30/src.zip!/java/lang/ClassLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="630" column="0" selection-start="24107" selection-end="24107" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/app/org/json/JSONArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="379" column="0" selection-start="12989" selection-end="12989" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/target/scala-2.10/src_managed/main/views/html/course.template.scala">
+    <entry file="file://$PROJECT_DIR$/regexp/app/ru/korgov/tasker/regexp/creators/TaskCreatorMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="74" column="0" selection-start="3869" selection-end="3869" vertical-scroll-proportion="0.0">
+        <state line="25" column="50" selection-start="892" selection-end="892" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main/app/ru/korgov/tasker/core/tasks/model/Task.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="13" selection-start="259" selection-end="259" vertical-scroll-proportion="0.0">
+        <state line="14" column="13" selection-start="355" selection-end="355" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#552#690#0" expanded="true" />
+            <element signature="e#683#684#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/app/ru/korgov/tasker/core/tasks/TasksService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="119" column="5" selection-start="4520" selection-end="4520" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#4033#4187#0" expanded="true" />
+            <element signature="e#4176#4177#0" expanded="true" />
+            <element signature="e#5639#5877#0" expanded="true" />
+            <element signature="e#5866#5867#0" expanded="true" />
+            <marker date="1369602611733" expanded="true" signature="-1:-1" placeholder="select * fro..course..." />
+            <marker date="1369602611733" expanded="true" signature="-1:-1" placeholder="select * fro..task..." />
+            <marker date="1369602611733" expanded="true" signature="-1:-1" placeholder="select * fro..task..." />
+            <marker date="1369602611733" expanded="true" signature="-1:-1" placeholder="insert into ..." />
+            <marker date="1369602611733" expanded="true" signature="-1:-1" placeholder="select * fro..task_type..." />
+            <marker date="1369602611733" expanded="true" signature="-1:-1" placeholder="select * fro..task..." />
+            <marker date="1369602611733" expanded="true" signature="-1:-1" placeholder="select * fro..task_creator..." />
+            <marker date="1369602611733" expanded="true" signature="-1:-1" placeholder="select * fro..task..." />
+            <marker date="1369602611733" expanded="true" signature="-1:-1" placeholder="update task ..." />
+            <marker date="1369602611733" expanded="true" signature="-1:-1" placeholder="delete from ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/app/ru/korgov/tasker/controllers/EditTasksController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="73" column="46" selection-start="3017" selection-end="3017" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#2023#2654#0" expanded="true" />
+            <element signature="e#2639#2640#0" expanded="true" />
+            <element signature="e#2741#3071#0" expanded="true" />
+            <element signature="e#3056#3057#0" expanded="true" />
+            <element signature="e#3127#3143#0" expanded="true" />
+            <element signature="e#3174#3190#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/regexp/app/ru/korgov/tasker/regexp/TaskClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="22" selection-start="568" selection-end="568" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/regexp/app/ru/korgov/tasker/regexp/MainTaskClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="13" selection-start="159" selection-end="159" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/app/ru/korgov/tasker/controllers/BuildCreatorJnlpController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="77" selection-start="1738" selection-end="1747" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/conf/routes">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="116" selection-start="1197" selection-end="1197" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/regexp/app/ru/korgov/tasker/regexp/viewers/StringListTaskMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="13" selection-start="227" selection-end="227" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/app/ru/korgov/tasker/controllers/LoadTasksByTypeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="31" selection-start="1338" selection-end="1338" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#1454#1470#0" expanded="true" />
+            <element signature="e#1501#1517#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="dbDummy://db-console:/72a581d0/dc4442c4-89e0-4db2-8762-82757eef74c6/">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="0" selection-start="2823" selection-end="2823" vertical-scroll-proportion="-7.793103">
+        <state line="83" column="0" selection-start="4303" selection-end="4303" vertical-scroll-proportion="-2.862069">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/app/ru/korgov/tasker/core/tasks/model/TaskType.java">
+    <entry file="file://$PROJECT_DIR$/common/app/org/json/JSONObject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="18" selection-start="1280" selection-end="1280" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#303#667#0" expanded="true" />
-            <element signature="e#660#661#0" expanded="true" />
-          </folding>
+        <state line="569" column="16" selection-start="20433" selection-end="20433" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/app/ru/korgov/tasker/controllers/ShowCourseController.java">
+    <entry file="file://$PROJECT_DIR$/regexp/app/ru/korgov/tasker/regexp/creators/TaskCreator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="59" selection-start="2837" selection-end="2837" vertical-scroll-proportion="0.6111111">
+        <state line="206" column="32" selection-start="8762" selection-end="8762" vertical-scroll-proportion="2.1627908">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1870#2394#0" expanded="true" />
-            <element signature="e#2363#2364#0" expanded="true" />
-            <element signature="e#2676#2861#0" expanded="true" />
-            <element signature="e#2850#2851#0" expanded="true" />
-            <element signature="e#3005#3017#0" expanded="true" />
+            <element signature="e#2879#3127#0" expanded="true" />
+            <element signature="e#3116#3117#0" expanded="true" />
+            <element signature="e#5031#5636#0" expanded="true" />
+            <element signature="e#5625#5626#0" expanded="true" />
+            <element signature="e#6965#7167#0" expanded="true" />
+            <element signature="e#7156#7157#0" expanded="true" />
+            <element signature="e#8447#8899#0" expanded="true" />
+            <element signature="e#8888#8889#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1572,7 +1791,7 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited>regexp:jar</last-edited>
+          <last-edited>regexpStringList:jar</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1585,7 +1804,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>No facets are configured</last-edited>
+          <last-edited>Spring</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1608,7 +1827,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>1.6</last-edited>
+          <last-edited>1.7</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1620,12 +1839,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>common-util</last-edited>
+          <last-edited>tasker-build</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
