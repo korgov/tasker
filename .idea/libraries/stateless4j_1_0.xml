@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="stateless4j-1.0">
+    <CLASSES>
+      <root url="jar:///usr/local/soft/play-2.1.1/repository/cache/com.googlecode/stateless4j/jars/stateless4j-1.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ideaLibSources/stateless4j-1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

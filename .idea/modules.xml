@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea_modules/common-util.iml" filepath="$PROJECT_DIR$/.idea_modules/common-util.iml" />
       <module fileurl="file://$PROJECT_DIR$/regexp/regexp.iml" filepath="$PROJECT_DIR$/regexp/regexp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/state-machine/state-machine.iml" filepath="$PROJECT_DIR$/state-machine/state-machine.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea_modules/tasker.iml" filepath="$PROJECT_DIR$/.idea_modules/tasker.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea_modules/tasker-build.iml" filepath="$PROJECT_DIR$/.idea_modules/tasker-build.iml" />
     </modules>

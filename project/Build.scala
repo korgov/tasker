@@ -14,7 +14,8 @@ object ApplicationBuild extends Build {
     javaEbean,
     "org.springframework" % "spring-jdbc" % "3.1.2.RELEASE",
     "mysql" % "mysql-connector-java" % "5.1.22",
-    "com.intellij" % "annotations" % "12.0"
+    "com.intellij" % "annotations" % "12.0",
+    "com.googlecode" % "stateless4j" % "1.0"
   )
 
 

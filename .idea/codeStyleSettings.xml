@@ -6,6 +6,9 @@
         <option name="LINE_SEPARATOR" value="&#10;" />
         <option name="GENERATE_FINAL_LOCALS" value="true" />
         <option name="GENERATE_FINAL_PARAMETERS" value="true" />
+        <SqlCodeStyleSettings>
+          <option name="KEYWORD_CASE" value="1" />
+        </SqlCodeStyleSettings>
         <XML>
           <option name="XML_LEGACY_SETTINGS_IMPORTED" value="true" />
         </XML>
