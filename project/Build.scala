@@ -22,8 +22,9 @@ object ApplicationBuild extends Build {
   val commonUtil = play.Project("common-util", dependencies = appDependencies, path = file("common")).settings()
 
   val regExpModule = play.Project("regexp-module", dependencies = appDependencies, path = file("regexp")).dependsOn(commonUtil).settings()
+  val stateMachineModule = play.Project("state-machine-module", dependencies = appDependencies, path = file("state-machine")).dependsOn(commonUtil).settings()
 
-  val aMain = play.Project(appName, appVersion, appDependencies, path = file("main")).dependsOn(commonUtil, regExpModule).settings()
+  val aMain = play.Project(appName, appVersion, appDependencies, path = file("main")).dependsOn(commonUtil, regExpModule, stateMachineModule).settings()
 
 
 }

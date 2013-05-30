@@ -27,11 +27,24 @@ public class UrlUtils {
 
     public static String sendPostRequest(final String url, final String data, final @Nullable String contentType) throws IOException {
         final URLConnection urlConnection = createPostConnection(url);
-        if(contentType != null){
+        if (contentType != null) {
             urlConnection.setRequestProperty("Content-Type", contentType);
         }
         write(urlConnection, data);
         return read(urlConnection);
+    }
+
+    public static byte[] sendPostRequestForBytes(final String url, final String data, final @Nullable String contentType) throws IOException {
+        final URLConnection urlConnection = createPostConnection(url);
+        if (contentType != null) {
+            urlConnection.setRequestProperty("Content-Type", contentType);
+        }
+        write(urlConnection, data);
+        return readBytes(urlConnection);
+    }
+
+    private static byte[] readBytes(final URLConnection urlConnection) throws IOException {
+        return IOUtils.readBytes(urlConnection.getInputStream());
     }
 
     public static URLConnection createPostConnection(final String url) throws IOException {

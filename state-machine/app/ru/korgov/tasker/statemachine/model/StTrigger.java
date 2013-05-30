@@ -16,6 +16,8 @@ public class StTrigger {
     private String trigger;
     private String toState;
 
+    public static final StTrigger EMPTY = new StTrigger("", "", "");
+
     public StTrigger(final String fromState, final String trigger, final String toState) {
         this.fromState = fromState;
         this.trigger = trigger;
@@ -32,6 +34,18 @@ public class StTrigger {
 
     public String getToState() {
         return toState;
+    }
+
+    public void setFromState(final String fromState) {
+        this.fromState = fromState;
+    }
+
+    public void setTrigger(final String trigger) {
+        this.trigger = trigger;
+    }
+
+    public void setToState(final String toState) {
+        this.toState = toState;
     }
 
     public static final Function<JSONObject, StTrigger> FROM_JSON = new Fu<JSONObject, StTrigger>() {
@@ -67,5 +81,27 @@ public class StTrigger {
                 ", trigger='" + trigger + '\'' +
                 ", toState='" + toState + '\'' +
                 "}\n";
+    }
+
+    @Override
+    public boolean equals(final Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+
+        final StTrigger stTrigger = (StTrigger) o;
+
+        if (fromState != null ? !fromState.equals(stTrigger.fromState) : stTrigger.fromState != null) return false;
+        if (toState != null ? !toState.equals(stTrigger.toState) : stTrigger.toState != null) return false;
+        if (trigger != null ? !trigger.equals(stTrigger.trigger) : stTrigger.trigger != null) return false;
+
+        return true;
+    }
+
+    @Override
+    public int hashCode() {
+        int result = fromState != null ? fromState.hashCode() : 0;
+        result = 31 * result + (trigger != null ? trigger.hashCode() : 0);
+        result = 31 * result + (toState != null ? toState.hashCode() : 0);
+        return result;
     }
 }

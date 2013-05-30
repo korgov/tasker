@@ -262,4 +262,8 @@ public class CollectionUtils {
         }, defaultValue);
     }
 
+    public static boolean isEmpty(final Collection<?> c) {
+        return c == null || c.isEmpty();
+    }
+
 }

@@ -15,8 +15,9 @@ GET     /editTasks                  ru.korgov.tasker.core.app.spring.Controllers
 GET     /loadTasks                  ru.korgov.tasker.core.app.spring.ControllersFactory.fromContext(name="loadTasksByTypeController")
 GET     /bean/*name                 ru.korgov.tasker.core.app.spring.ControllersFactory.fromContext(name)
 
-POST     /saveTasks            ru.korgov.tasker.core.app.spring.ControllersFactory.fromContext(name="editTasksController")
+POST     /saveTasks                 ru.korgov.tasker.core.app.spring.ControllersFactory.fromContext(name="editTasksController")
 POST     /checkTask                 ru.korgov.tasker.core.app.spring.ControllersFactory.fromContext(name="checkTaskController")
+POST     /binHelp                   ru.korgov.tasker.core.app.spring.ControllersFactory.fromContext(name="binaryHelpTaskController")
 
 # Map static resources from the /public folder to the /assets URL path
 GET     /assets/*file               controllers.Assets.at(path="/public", file)

@@ -2,46 +2,55 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="regexpStringList:jar" />
+      <artifact name="stateMachine:jar" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/state-machine/app/ru/korgov/tasker/statemachine/model/StTask.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/test/ru/korgov/tasker/statemachine/StTaskTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/state-machine/app/ru/korgov/tasker/statemachine/model/StTaskType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/state-machine/app/ru/korgov/tasker/statemachine/model/StTrigger.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/state-machine/app/ru/korgov/tasker/statemachine/model/StateMachineConfiguration.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/state-machine/app/ru/korgov/tasker/statemachine/viewers/StateMachineInputClient.form" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/state-machine/app/ru/korgov/tasker/statemachine/viewers/StateMachineInputClient.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/test/ru/korgov/tasker/statemachine/StateMachineTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/app/ru/korgov/tasker/modules/statemachine/TaskerStateMachine.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/state-machine/state-machine.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/stateless4j_1_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/app/ru/korgov/tasker/controllers/BinaryHelpTaskController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/app/ru/korgov/tasker/modules/BinaryTaskHelper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/app/ru/korgov/util/graphviz/GraphViz.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/app/ru/korgov/util/graphviz/GraphVizHelper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/app/ru/korgov/tasker/modules/statemachine/StateMachineDrawHelper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/test/ru/korgov/tasker/modules/statemachine/StateMachineDrawHelperTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/state-machine/app/ru/korgov/tasker/statemachine/viewers/StateMachineInputClientMain.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/app/ru/korgov/tasker/modules/TaskHelper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/state-machine/app/ru/korgov/tasker/statemachine/viewers/TriggerTableModel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/stateMachine_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/conf/statemachine-module-config.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/Build.scala" afterPath="$PROJECT_DIR$/project/Build.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/app/ru/korgov/util/JSONUtils.java" afterPath="$PROJECT_DIR$/common/app/ru/korgov/util/JSONUtils.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/app/ru/korgov/util/collection/CollectionUtils.java" afterPath="$PROJECT_DIR$/common/app/ru/korgov/util/collection/CollectionUtils.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/app/ru/korgov/util/io/IOUtils.java" afterPath="$PROJECT_DIR$/common/app/ru/korgov/util/io/IOUtils.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/state-machine/app/ru/korgov/tasker/statemachine/model/StTrigger.java" afterPath="$PROJECT_DIR$/state-machine/app/ru/korgov/tasker/statemachine/model/StTrigger.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/state-machine/app/ru/korgov/tasker/statemachine/model/StateMachineConfiguration.java" afterPath="$PROJECT_DIR$/state-machine/app/ru/korgov/tasker/statemachine/model/StateMachineConfiguration.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/state-machine/app/ru/korgov/tasker/statemachine/viewers/StateMachineInputClient.form" afterPath="$PROJECT_DIR$/state-machine/app/ru/korgov/tasker/statemachine/viewers/StateMachineInputClient.form" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/state-machine/app/ru/korgov/tasker/statemachine/viewers/StateMachineInputClient.java" afterPath="$PROJECT_DIR$/state-machine/app/ru/korgov/tasker/statemachine/viewers/StateMachineInputClient.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/test/ru/korgov/tasker/statemachine/StateMachineTest.java" afterPath="$PROJECT_DIR$/main/test/ru/korgov/tasker/statemachine/StateMachineTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/app/ru/korgov/util/UrlUtils.java" afterPath="$PROJECT_DIR$/common/app/ru/korgov/util/UrlUtils.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/conf/application-context.xml" afterPath="$PROJECT_DIR$/main/conf/application-context.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/conf/routes" afterPath="$PROJECT_DIR$/main/conf/routes" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/conf/tasker-services.xml" afterPath="$PROJECT_DIR$/main/conf/tasker-services.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="tasker.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369605330674" ignored="false" />
+    <file path="/Dummy.txt" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369855021245" ignored="false" />
     <file path="/test.scala.html" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1367706278418" ignored="false" />
     <file path="/Application.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1367705623389" ignored="false" />
     <file path="/test.scala.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1367705029629" ignored="false" />
-    <file path="/routes" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369601852535" ignored="false" />
-    <file path="/a.dummy" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369613883584" ignored="false" />
+    <file path="/routes" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369875516693" ignored="false" />
+    <file path="/a.dummy" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369744882816" ignored="false" />
     <file path="/.gitignore" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1367703812962" ignored="false" />
     <file path="/main2.scala.html" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1367705066188" ignored="false" />
     <file path="$PROJECT_DIR$/main/logs/application.log" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1367705646833" ignored="false" />
     <file path="/JSONTaskSerialiser.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1368569627578" ignored="false" />
-    <file path="/fragment.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369613980975" ignored="false" />
+    <file path="/fragment.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369878311503" ignored="false" />
     <file path="/JSONTaskSerialiserTest.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1367707063176" ignored="false" />
-    <file path="/IOUtils.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1367707262875" ignored="false" />
+    <file path="/IOUtils.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369878887190" ignored="false" />
     <file path="/TaskClient.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1367710279255" ignored="false" />
     <file path="/tasks.sql" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369600013065" ignored="false" />
-    <file path="/TaskType.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369241070169" ignored="false" />
+    <file path="/TaskType.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369875155578" ignored="false" />
     <file path="/Course.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1368391365043" ignored="false" />
     <file path="/File Header.txt.ft" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1368391302801" ignored="false" />
     <file path="/TaskCreator.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369603684147" ignored="false" />
@@ -54,12 +63,12 @@
     <file path="/course.scala.html" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369599942760" ignored="false" />
     <file path="/a.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369602220614" ignored="false" />
     <file path="/Task.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369288308352" ignored="false" />
-    <file path="/tasker" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369603498533" ignored="false" />
-    <file path="/tasker-services.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369599086234" ignored="false" />
+    <file path="/tasker" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369877289918" ignored="false" />
+    <file path="/tasker-services.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369875379140" ignored="false" />
     <file path="/main.css" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1368403199170" ignored="false" />
     <file path="/CourseInfo.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1368398901420" ignored="false" />
     <file path="/TaskCreatorInfo.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369599842589" ignored="false" />
-    <file path="/CollectionUtils.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369578474514" ignored="false" />
+    <file path="/CollectionUtils.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369870202505" ignored="false" />
     <file path="/StringListTask.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369288777243" ignored="false" />
     <file path="/CollectionFactory.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369315418356" ignored="false" />
     <file path="/RegExpTestResult.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1368571343575" ignored="false" />
@@ -68,13 +77,13 @@
     <file path="/TaskChecker.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1368571740069" ignored="false" />
     <file path="/RegExpConstants.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1368573503529" ignored="false" />
     <file path="/RegExpJSONTaskSerialiser.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369285830433" ignored="false" />
-    <file path="/regexp-module-config.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1368574453550" ignored="false" />
+    <file path="/regexp-module-config.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369871662524" ignored="false" />
     <file path="/StringListTaskMain.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1368577699695" ignored="false" />
     <file path="/BuildTaskJnlpController.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369287663568" ignored="false" />
     <file path="/jnlpTemplate.scala.html" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369287689291" ignored="false" />
-    <file path="/Build.scala" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1368578314148" ignored="false" />
+    <file path="/Build.scala" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369876427326" ignored="false" />
     <file path="/CheckTaskController.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1368973901245" ignored="false" />
-    <file path="/UrlUtils.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369283755654" ignored="false" />
+    <file path="/UrlUtils.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369878943889" ignored="false" />
     <file path="$PROJECT_DIR$/../../backa/backa2/core/src/java/ru/yandex/common/framework/core/profile/RequestPercentileProfilerImpl.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369133638652" ignored="false" />
     <file path="/RequestPercentileProfilerImpl.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369133281668" ignored="false" />
     <file path="$PROJECT_DIR$/../../backa/backa2/core/src/java/ru/yandex/common/framework/core/profile/RequestAggregateProfiler.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369144375085" ignored="false" />
@@ -84,7 +93,7 @@
     <file path="$PROJECT_DIR$/../../backa/backa2/main/src/script/backa-actualization-services.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369596446736" ignored="false" />
     <file path="$PROJECT_DIR$/../../backa/backa2/main/src/java/ru/yandex/backa/actualization/control/report/UserWorkingTimeChecker.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369143249442" ignored="false" />
     <file path="/UserWorkingTimeChecker.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369055225038" ignored="false" />
-    <file path="$PROJECT_DIR$/../../backa/viewb/actualization/task/ubc/close-unprocessed-ubc-package-tasks.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369059306129" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/viewb/actualization/task/ubc/close-unprocessed-ubc-package-tasks.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369744203575" ignored="false" />
     <file path="/close-unprocessed-ubc-package-tasks.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369058732646" ignored="false" />
     <file path="$PROJECT_DIR$/../../backa/viewb/actualization/task/ubc/close-unprocessed-ubc-package-tasks.xsl" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369059297923" ignored="false" />
     <file path="$PROJECT_DIR$/../../backa/backa2/main/src/java/ru/yandex/backa/actualization/control/report/QuotaReportServantlet.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369143249442" ignored="false" />
@@ -99,20 +108,20 @@
     <file path="/ResolveActTaskServantlet.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369147333904" ignored="false" />
     <file path="/ActResolveQueueFactory.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369134204375" ignored="false" />
     <file path="$PROJECT_DIR$/../../backa/backa2/core/src/java/ru/yandex/backa/actualization/inbox/queue/ActResolveQueueFactory.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369144548855" ignored="false" />
-    <file path="$PROJECT_DIR$/../../backa/backa2/core/src/java/ru/yandex/backa/actualization/inbox/queue/ActResolveItem.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369484720063" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/core/src/java/ru/yandex/backa/actualization/inbox/queue/ActResolveItem.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369753118143" ignored="false" />
     <file path="/ActResolveItem.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369146096801" ignored="false" />
     <file path="$PROJECT_DIR$/../../backa/backa2/core/src/java/ru/yandex/backa/tasker/actualization/model/InboxTaskStatus.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369577730150" ignored="false" />
     <file path="/InboxTaskStatus.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369135152189" ignored="false" />
-    <file path="$PROJECT_DIR$/../../backa/backa2/core/src/java/ru/yandex/backa/actualization/inbox/queue/ResolveActRequestProcessor.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369387315170" ignored="false" />
-    <file path="/ResolveActRequestProcessor.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369145910060" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/core/src/java/ru/yandex/backa/actualization/inbox/queue/ResolveActRequestProcessor.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369753118143" ignored="false" />
+    <file path="/ResolveActRequestProcessor.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369752804315" ignored="false" />
     <file path="$PROJECT_DIR$/../../backa/backa2/backa-admin/src/script/bean.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369387315168" ignored="false" />
     <file path="$PROJECT_DIR$/../../backa/backa2/core/src/script/backa-tasker-config.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369143249441" ignored="false" />
     <file path="$PROJECT_DIR$/../../backa/backa2/core/src/java/ru/yandex/backa/actualization/AbstractEditActEntityService.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369387592227" ignored="false" />
     <file path="$PROJECT_DIR$/../../backa/backa2/qbacka-main/src/script/qbacka-main-config.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369143249441" ignored="false" />
     <file path="$PROJECT_DIR$/../../backa/backa2/backa-export2/src/script/backa-export-db-config.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369143249441" ignored="false" />
     <file path="$PROJECT_DIR$/../../backa/backa2/qbacka-main/src/script/qbacka-main-db-config.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369143249441" ignored="false" />
-    <file path="$PROJECT_DIR$/../../backa/backa2/backa-export2/src/script/bean.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369387315170" ignored="false" />
-    <file path="$PROJECT_DIR$/../../backa/backa2/backa-export2/src/script/backa-export-config.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369387315171" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/backa-export2/src/script/bean.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369739207595" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/backa-export2/src/script/backa-export-config.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369672953507" ignored="false" />
     <file path="$PROJECT_DIR$/../../backa/backa2/core/src/script/backa-chain-unification-config.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369143249442" ignored="false" />
     <file path="$PROJECT_DIR$/../../backa/backa2/qbacka-main/src/script/qbacka-company-services.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369143249442" ignored="false" />
     <file path="$PROJECT_DIR$/../../backa/backa2/backa-admin/src/script/backa-auto-clusterization.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369143249442" ignored="false" />
@@ -127,12 +136,12 @@
     <file path="$PROJECT_DIR$/../../backa/backa2/backa-scheduler/src/script/bean.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369387315170" ignored="false" />
     <file path="$PROJECT_DIR$/../../backa/backa2/backa-servantlets/src/script/backa-firstupload-services.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369143249442" ignored="false" />
     <file path="$PROJECT_DIR$/../../backa/backa2/backa-admin/src/script/qas/bean.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369143249442" ignored="false" />
-    <file path="$PROJECT_DIR$/../../backa/backa2/backa-partner-scheduler/src/script/backa-partner-scheduler-tasks.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369302063696" ignored="false" />
-    <file path="$PROJECT_DIR$/../../backa/backa2/core/src/java/ru/yandex/backa/tasker/actualization/applicator/AllInOneActApplicator.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369407350739" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/backa-partner-scheduler/src/script/backa-partner-scheduler-tasks.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369672953507" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/core/src/java/ru/yandex/backa/tasker/actualization/applicator/AllInOneActApplicator.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369748834742" ignored="false" />
     <file path="$PROJECT_DIR$/../../backa/backa2/backa-partner-scheduler/src/script/bean.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369143249443" ignored="false" />
     <file path="$PROJECT_DIR$/../../backa/backa2/core/src/java/ru/yandex/backa/tasker/actualization/applicator/ActApplicationContext.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369137508313" ignored="false" />
     <file path="$PROJECT_DIR$/../../backa/backa2/qbacka-indexer/ivy.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369387592227" ignored="false" />
-    <file path="$PROJECT_DIR$/../../backa/backa2/backa-scheduler/src/script/backa-scheduler-tasks.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369387315170" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/backa-scheduler/src/script/backa-scheduler-tasks.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369744594923" ignored="false" />
     <file path="$PROJECT_DIR$/../../backa/backa2/backa-entities-server/src/script/backa-server-config.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369143249443" ignored="false" />
     <file path="$PROJECT_DIR$/../../backa/backa2/backa-scheduler/src/script/backa-scheduler-mongo-pumper.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369143249443" ignored="false" />
     <file path="$PROJECT_DIR$/../../backa/backa2/core/src/script/backa-firstupload-config.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369143249443" ignored="false" />
@@ -163,7 +172,7 @@
     <file path="$PROJECT_DIR$/../../backa/backa2/backa-lbc/src/script/backa-lbc-services.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369143249444" ignored="false" />
     <file path="$PROJECT_DIR$/../../backa/backa2/main/src/test/ru/yandex/backa/actualization/ResolveActTaskServantletTest.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369137508315" ignored="false" />
     <file path="$PROJECT_DIR$/../../backa/backa2/main/src/test/test-feature-delete-helper-config.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369137525710" ignored="false" />
-    <file path="$PROJECT_DIR$/../../backa/backa2/core/src/java/ru/yandex/backa/tasker/actualization/ActCompanyService.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369143249444" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/core/src/java/ru/yandex/backa/tasker/actualization/ActCompanyService.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369748834742" ignored="false" />
     <file path="$PROJECT_DIR$/../../backa/backa2/core/src/script/backa-kdepot-extra-processors-config.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369387315168" ignored="false" />
     <file path="$PROJECT_DIR$/../../backa/backa2/main/src/test/ru/yandex/backa/actualization/MarkCompanyAsDupServantletTest.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369137508315" ignored="false" />
     <file path="$PROJECT_DIR$/../../backa/backa2/backa-lbc/src/script/backa-lbc-config.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369143249444" ignored="false" />
@@ -176,10 +185,10 @@
     <file path="$PROJECT_DIR$/../../backa/backa2/backa-reporter/src/script/bean.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369407804020" ignored="false" />
     <file path="$PROJECT_DIR$/../../backa/backa2/main/src/test/ru/yandex/backa/actualization/control/report/QuotaReportServantletTest.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369137508316" ignored="false" />
     <file path="$PROJECT_DIR$/../../backa/backa2/main/src/java/ru/yandex/backa/actualization/GetTaskBatchServantlet.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369388547850" ignored="false" />
-    <file path="$PROJECT_DIR$/../../backa/backa2/core/src/java/ru/yandex/backa/tasker/actualization/ActCompanyServiceImpl.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369387315169" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/core/src/java/ru/yandex/backa/tasker/actualization/ActCompanyServiceImpl.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369748834743" ignored="false" />
     <file path="$PROJECT_DIR$/../../backa/backa2/public/src/script/backa-public-config.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369143249445" ignored="false" />
     <file path="$PROJECT_DIR$/../../backa/backa2/main/src/java/ru/yandex/backa/actualization/AbstractProcessTaskServantlet.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369388547850" ignored="false" />
-    <file path="$PROJECT_DIR$/../../backa/backa2/core/src/java/ru/yandex/backa/tasker/actualization/model/BatchType.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369137508316" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/core/src/java/ru/yandex/backa/tasker/actualization/model/BatchType.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369774528656" ignored="false" />
     <file path="$PROJECT_DIR$/../../backa/backa2/public/src/script/bean.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369143249445" ignored="false" />
     <file path="$PROJECT_DIR$/../../backa/backa2/main/src/script/backa-task-services.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369137525710" ignored="false" />
     <file path="$PROJECT_DIR$/../../backa/backa2/core/src/java/ru/yandex/backa/tasker/actualization/model/ActTaskBatch.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369137508316" ignored="false" />
@@ -233,7 +242,7 @@
     <file path="$PROJECT_DIR$/../../playground/intellij/LazySpring/common-src/ru/korgov/util/collection/CollectionFactory.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369318631051" ignored="false" />
     <file path="$PROJECT_DIR$/../../playground/intellij/LazySpring/META-INF/plugin.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369319717796" ignored="false" />
     <file path="/plugin.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369319712394" ignored="false" />
-    <file path="$PROJECT_DIR$/../../backa/backa2/core/src/sql/act_resolve_queue.sql" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369387315168" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/core/src/sql/act_resolve_queue.sql" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369744594923" ignored="false" />
     <file path="$PROJECT_DIR$/../../backa/backa2/core/src/java/ru/yandex/backa/tasker/actualization/batcher/GenerousTaskCutter.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369388547850" ignored="false" />
     <file path="$PROJECT_DIR$/../../backa/backa2/core/src/java/ru/yandex/backa/tasker/actualization/batcher/AbstractTaskBatcher.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369388547850" ignored="false" />
     <file path="$PROJECT_DIR$/../../backa/backa2/core/src/java/ru/yandex/backa/tasker/actualization/batcher/actualize/AbstractActRuleBatcher.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369393178957" ignored="false" />
@@ -242,14 +251,14 @@
     <file path="$PROJECT_DIR$/../../backa/backa2/core/src/java/ru/yandex/backa/features/Utils.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369387315168" ignored="false" />
     <file path="$PROJECT_DIR$/../../backa/backa2/core/src/java/ru/yandex/backa/tasker/actualization/batcher/feedback/verification/ChainVerificationTaskBatcher.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369388547850" ignored="false" />
     <file path="$PROJECT_DIR$/../../backa/backa2/core/src/java/ru/yandex/backa/tasker/actualization/SourcedEntityVisitor.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369387592227" ignored="false" />
-    <file path="$PROJECT_DIR$/../../backa/backa2/core/src/java/ru/yandex/backa/common/queue/impl/oracle/AbstractOracleQueueFactory.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369387315169" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/core/src/java/ru/yandex/backa/common/queue/impl/oracle/AbstractOracleQueueFactory.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369741221378" ignored="false" />
     <file path="$PROJECT_DIR$/../../backa/backa2/main/src/java/ru/yandex/backa/actualization/GetSnapshotsByBatchServantlet.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369387575056" ignored="false" />
     <file path="$PROJECT_DIR$/../../backa/backa2/core/src/java/ru/yandex/backa/tasker/actualization/batcher/moderation/AbstractModerationTaskBatcher.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369388547850" ignored="false" />
     <file path="$PROJECT_DIR$/../../backa/backa2/core/src/java/ru/yandex/backa/tasker/actualization/SimilarHolder.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369387592227" ignored="false" />
     <file path="$PROJECT_DIR$/../../backa/backa2/core/src/java/ru/yandex/backa/search/query/CompanyQueryBuilder.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369387315170" ignored="false" />
     <file path="$PROJECT_DIR$/../../backa/backa2/core/src/java/ru/yandex/backa/tasker/actualization/ActSourcedCompaniesService.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369387315170" ignored="false" />
-    <file path="$PROJECT_DIR$/../../backa/backa2/core/src/java/ru/yandex/backa/actualization/inbox/queue/ActResolveItemTranscoder.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369387315171" ignored="false" />
-    <file path="$PROJECT_DIR$/../../backa/backa2/core/src/java/ru/yandex/backa/tasker/service/TaskService.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369387315171" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/core/src/java/ru/yandex/backa/actualization/inbox/queue/ActResolveItemTranscoder.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369741221378" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/core/src/java/ru/yandex/backa/tasker/service/TaskService.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369782912962" ignored="false" />
     <file path="$PROJECT_DIR$/../../backa/backa2/main/src/java/ru/yandex/backa/actualization/EditActCompanyServantlet.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369388547850" ignored="false" />
     <file path="$PROJECT_DIR$/../../backa/backa2/core/src/java/ru/yandex/backa/tasker/actualization/ActNotPhonedHistService.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369387592227" ignored="false" />
     <file path="$PROJECT_DIR$/../../backa/backa2/core/src/java/ru/yandex/backa/geocontext/DbSnapshotService.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369387575056" ignored="false" />
@@ -266,7 +275,7 @@
     <file path="/AllInOneActApplicator.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369407350065" ignored="false" />
     <file path="$PROJECT_DIR$/../../backa/backa2/core/src/java/ru/yandex/backa/actualization/control/ActTaskInfo.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369407804020" ignored="false" />
     <file path="$PROJECT_DIR$/../../backa/backa2/core/src/java/ru/yandex/backa/tasker/actualization/batcher/actualize/UploadByCallingTaskBatcher.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369407804020" ignored="false" />
-    <file path="$PROJECT_DIR$/../../backa/backa2/core/src/java/ru/yandex/backa/upload/UploadByCallingConstants.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369407804020" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/core/src/java/ru/yandex/backa/upload/UploadByCallingConstants.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369816560385" ignored="false" />
     <file path="$PROJECT_DIR$/../../backa/backa2/core/src/java/ru/yandex/backa/tasker/actualization/model/geninfo/GenInfoBuilder.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369407804020" ignored="false" />
     <file path="$PROJECT_DIR$/../../backa/backa2/core/src/java/ru/yandex/backa/tasker/actualization/batcher/actualize/AccuracyTaskBatcher.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369407804021" ignored="false" />
     <file path="$PROJECT_DIR$/../../backa/backa2/core/src/java/ru/yandex/backa/tasker/actualization/batcher/actualize/ActualizationTaskBatcher.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369407804021" ignored="false" />
@@ -284,20 +293,93 @@
     <file path="$PROJECT_DIR$/../../backa/backa2/main/src/java/ru/yandex/backa/calls/history/SavePhoneCallServantlet.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369596446736" ignored="false" />
     <file path="$PROJECT_DIR$/../../backa/backa2/main/src/java/ru/yandex/backa/actualization/ActualizationDataProviderDelegateFactory.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369597369465" ignored="false" />
     <file path="/ActualizationDataProviderDelegateFactory.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369597042475" ignored="false" />
-    <file path="/a.sql" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369602246744" ignored="false" />
+    <file path="/a.sql" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369871736644" ignored="false" />
     <file path="/MANIFEST.MF" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369606049337" ignored="false" />
-    <file path="/StateMachineTest.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369609929474" ignored="false" />
+    <file path="/StateMachineTest.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369871818078" ignored="false" />
     <file path="/TaskerStateMachine.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369610377574" ignored="false" />
     <file path="/StMachineTask.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369610504203" ignored="false" />
-    <file path="/StTrigger.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369612989836" ignored="false" />
-    <file path="/StateMachineConfiguration.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369614857835" ignored="false" />
+    <file path="/StTrigger.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369846566477" ignored="false" />
+    <file path="/StateMachineConfiguration.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369879918922" ignored="false" />
     <file path="/StTask.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369614467748" ignored="false" />
     <file path="/StTaskType.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369611471049" ignored="false" />
     <file path="/JSONUtils.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369612837536" ignored="false" />
     <file path="/StTaskTest.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369615014823" ignored="false" />
     <file path="$PROJECT_DIR$/state-machine/app/ru/korgov/tasker/statemachine/viewers.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369615328913" ignored="false" />
     <file path="/StMachineInputClient.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369615796238" ignored="false" />
-    <file path="/StateMachineInputClient.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369617799139" ignored="false" />
+    <file path="/StateMachineInputClient.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369881342703" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/core/src/java/ru/yandex/backa/seshat/XmlUploadByCallingDiffService.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369646536927" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/backa-reporter/src/java/ru/yandex/backa/reports/actualization/UploadPackageDataGenerator.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369783143544" ignored="false" />
+    <file path="/UploadPackageDataGenerator.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369783137579" ignored="false" />
+    <file path="/TaskService.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369781984426" ignored="false" />
+    <file path="/XmlUploadByCallingDiffService.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369646240334" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/core/src/java/ru/yandex/backa/tasker/service/TaskHelper.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369646537546" ignored="false" />
+    <file path="/TaskHelper.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369870737444" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/viewb/actualization/task/ubc/upload-by-calling-diff.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369738485455" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/backa-scheduler/src/java/ru/yandex/backa/actualization/IronladyEmulator.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369654909585" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/backa-scheduler/ivy.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369649114204" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/backa-scheduler/build-tools/script/ivysettings.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369648745152" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/backa-scheduler/src/test/ru/yandex/backa/actualization/IronladyEmulatorTest.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369654909585" ignored="false" />
+    <file path="/IronladyEmulatorTest.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369650957034" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/backa-scheduler/src/test/test-IronladyEmulatorTest.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369654909585" ignored="false" />
+    <file path="/upload-by-calling-diff.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369652636869" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/.idea/ant.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369654909585" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/core/src/test/ru/yandex/backa/mongo/MultiStorageUploadTool.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369657691485" ignored="false" />
+    <file path="/MultiStorageUploadTool.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369760814621" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/core/src/test/test-MultiStorageUploadTool.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369657178654" ignored="false" />
+    <file path="/test-MultiStorageUploadTool.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369747037890" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/qbacka-core/src/test/ru/yandex/backa/mongo/MultiStorageUploadTool.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369777750560" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/qbacka-core/src/test/test-MultiStorageUploadTool.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369777750560" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/backa-tools/src/script/tool-config-address-snippets.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369672953507" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/backa-tools/src/script/tool-run-export2.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369672953507" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/backa-tools/src/script/tool-run-export-full.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369672953507" ignored="false" />
+    <file path="/ActResolveItemTranscoder.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369739836454" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/core/src/test/test-default-processor-config.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369739207595" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/qbacka-publicator/src/test/ru/yandex/backa/queue/publication/MGeocodingTool.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369739207595" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/core/src/test/ru/yandex/backa/bkv/queue/SnapshotPusherTool.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369739207595" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/qbacka-core/src/script/qbacka-geo-config.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369739207595" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/core/src/test/ru/yandex/backa/geo/CompanyProcessorTest.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369739207595" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/qbacka-core/src/test/ru/yandex/backa/navteq/NavteqGeocodingTool.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369739207595" ignored="false" />
+    <file path="/AbstractOracleQueueFactory.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369741185104" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/core/src/java/ru/yandex/backa/util/BackaDbUtils.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369741221378" ignored="false" />
+    <file path="/BackaDbUtils.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369740772880" ignored="false" />
+    <file path="/Dummy.regexp" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369740900187" ignored="false" />
+    <file path="/act_resolve_queue.sql" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369741049646" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/core/src/java/ru/yandex/backa/mongo/multistorage/MongoMultiStorageHistoryService.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369777750560" ignored="false" />
+    <file path="/backa-multistorage-history-service.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369744891441" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/core/src/script/backa-multistorage-history-service.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369777750560" ignored="false" />
+    <file path="/TransactionMetadata.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369745151122" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/core/src/java/ru/yandex/backa/mongo/multistorage/TransactionMetadata.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369777750560" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/core/src/java/ru/yandex/backa/mongo/multistorage/MultiStorageHistoryService.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369777750560" ignored="false" />
+    <file path="/MongoMultiStorageHistoryService.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369747459919" ignored="false" />
+    <file path="/ActResolveItemTranscoderTest.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369747181746" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/core/src/test/ru/yandex/backa/actualization/inbox/queue/ActResolveItemTranscoderTest.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369748834742" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/main/src/java/ru/yandex/backa/actualization/MarkCompanyAsDupServantlet.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369816560385" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/main/src/java/ru/yandex/backa/tasker/ResolveTaskServantlet.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369748834743" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/core/src/java/ru/yandex/backa/mongo/EllipticsHistoryStorage.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369749061784" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/main/src/java/ru/yandex/backa/actualization/inbox/queue/ActTaskResolver.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369753118143" ignored="false" />
+    <file path="/ActTaskResolver.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369752591529" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/core/src/java/ru/yandex/backa/tasker/model/TaskResolution.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369774528656" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/backa-reporter/src/test/ru/yandex/backa/reports/actualization/UploadPackageDataGeneratorTest.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369777750560" ignored="false" />
+    <file path="/UploadPackageDataGeneratorTest.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369774968711" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/backa-reporter/src/test/test-UploadPackageDataGeneratorTest.xml" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369777750560" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/core/src/java/ru/yandex/backa/actualization/ubc/UploadPackageDataLoader.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369782570549" ignored="false" />
+    <file path="/UploadPackageDataLoader.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369782201543" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/core/src/java/ru/yandex/backa/bkv/visit/visitors/CloseCalledCompaniesVisitorFactory.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369782078284" ignored="false" />
+    <file path="/CloseCalledCompaniesVisitorFactory.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369782076235" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/core/src/test/ru/yandex/backa/tasker/actualization/generation/ActuializationBugCheckTest.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369816560385" ignored="false" />
+    <file path="db-console:/12ddfaa1/32052357-6222-41e5-9406-a8bd7fa0a4e1/" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369819675265" ignored="false" />
+    <file path="/backa-prod" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369819674433" ignored="false" />
+    <file path="db-console:/12ddfaa1/adccd57b-cf2f-4893-8427-e5f1700dc563/" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369819744657" ignored="false" />
+    <file path="/backa-test" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369819743599" ignored="false" />
+    <file path="$PROJECT_DIR$/../../backa/backa2/main/src/java/ru/yandex/backa/actualization/feature/GetFeatureValuesServantlet.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369820588086" ignored="false" />
+    <file path="/GetFeatureValuesServantlet.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369820558651" ignored="false" />
+    <file path="/TriggerTableModel.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369879986303" ignored="false" />
+    <file path="/StateMachineInputClientMain.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369851080669" ignored="false" />
+    <file path="/StateMachineDrawHelper.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369874971951" ignored="false" />
+    <file path="/StateMachineDrawHelperTest.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369874760573" ignored="false" />
+    <file path="/GraphVizHelper.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369873685754" ignored="false" />
+    <file path="/GraphViz.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369874026986" ignored="false" />
+    <file path="/HelpTaskController.java" changelist="54cb69c0-0ea0-4ffe-a07f-c3634eb07f40" time="1369875313256" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -320,7 +402,38 @@
     <sortChildren value="false" />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint url="file://$PROJECT_DIR$/regexp/app/ru/korgov/tasker/regexp/creators/TaskCreatorMain.java" line="20" class="ru.korgov.tasker.regexp.creators.TaskCreatorMain" package="ru.korgov.tasker.regexp.creators">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/regexp/app/ru/korgov/tasker/regexp/creators/TaskCreator.java" line="90" class="ru.korgov.tasker.regexp.creators.TaskCreator$4" package="ru.korgov.tasker.regexp.creators">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </line_breakpoints>
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -357,38 +470,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
-      <breakpoint url="file://$PROJECT_DIR$/regexp/app/ru/korgov/tasker/regexp/creators/TaskCreatorMain.java" line="20" class="ru.korgov.tasker.regexp.creators.TaskCreatorMain" package="ru.korgov.tasker.regexp.creators">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/regexp/app/ru/korgov/tasker/regexp/creators/TaskCreator.java" line="90" class="ru.korgov.tasker.regexp.creators.TaskCreator$4" package="ru.korgov.tasker.regexp.creators">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-    </line_breakpoints>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -401,40 +483,48 @@
       <file leaf-file-name="StateMachineConfiguration.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/state-machine/app/ru/korgov/tasker/statemachine/model/StateMachineConfiguration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="91" selection-start="1877" selection-end="1877" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#495#506#0" expanded="true" />
-                <element signature="e#519#527#0" expanded="true" />
-                <element signature="e#1280#1296#0" expanded="true" />
-                <element signature="e#1323#1339#0" expanded="true" />
-                <element signature="e#1405#1421#0" expanded="true" />
-                <element signature="e#1524#1540#0" expanded="true" />
-                <element signature="e#2062#2254#0" expanded="true" />
-                <element signature="e#2247#2248#0" expanded="true" />
-                <element signature="e#2342#2536#0" expanded="true" />
-                <element signature="e#2529#2530#0" expanded="true" />
-              </folding>
+            <state line="21" column="33" selection-start="649" selection-end="649" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StTaskTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main/test/ru/korgov/tasker/statemachine/StTaskTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="58" selection-start="2661" selection-end="2661" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StateMachineInputClient.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="StateMachineInputClient.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/state-machine/app/ru/korgov/tasker/statemachine/viewers/StateMachineInputClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="40" selection-start="463" selection-end="463" vertical-scroll-proportion="1.4690722">
+            <state line="127" column="21" selection-start="4646" selection-end="4646" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Window.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar:///usr/lib/jvm/javase6u30/src.zip!/java/awt/Window.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3351" column="17" selection-start="123380" selection-end="123380" vertical-scroll-proportion="0.0">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JScrollPane.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar:///usr/lib/jvm/javase6u30/src.zip!/javax/swing/JScrollPane.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="413" column="16" selection-start="13955" selection-end="13955" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TriggerTableModel.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/state-machine/app/ru/korgov/tasker/statemachine/viewers/TriggerTableModel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="32" column="24" selection-start="1066" selection-end="1066" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -446,64 +536,39 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StringListTask.form" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/regexp/app/ru/korgov/tasker/regexp/viewers/StringListTask.form">
-          <provider selected="true" editor-type-id="ui-designer">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StringListTaskMain.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/regexp/app/ru/korgov/tasker/regexp/viewers/StringListTaskMain.java">
+      <file leaf-file-name="StateMachineDrawHelper.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main/app/ru/korgov/tasker/modules/statemachine/StateMachineDrawHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="0" selection-start="248" selection-end="1105" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ApplicationTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main/test/ru/korgov/tasker/ApplicationTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="10" selection-start="456" selection-end="456" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StTask.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/state-machine/app/ru/korgov/tasker/statemachine/model/StTask.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="68" column="49" selection-start="1997" selection-end="1997" vertical-scroll-proportion="0.0">
+            <state line="22" column="24" selection-start="902" selection-end="902" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2209#2377#0" expanded="true" />
-                <element signature="e#2370#2371#0" expanded="true" />
-                <element signature="e#2443#2598#0" expanded="true" />
-                <element signature="e#2591#2592#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StTrigger.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/state-machine/app/ru/korgov/tasker/statemachine/model/StTrigger.java">
+      <file leaf-file-name="TaskerStateMachine.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main/app/ru/korgov/tasker/modules/statemachine/TaskerStateMachine.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="59" column="9" selection-start="1765" selection-end="1765" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#889#1346#0" expanded="true" />
-                <element signature="e#1339#1340#0" expanded="true" />
-                <element signature="e#1415#1771#0" expanded="true" />
-              </folding>
+            <state line="8" column="13" selection-start="185" selection-end="185" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StTaskType.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/state-machine/app/ru/korgov/tasker/statemachine/model/StTaskType.java">
+      <file leaf-file-name="StateMachineTest.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/main/test/ru/korgov/tasker/statemachine/StateMachineTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="34" selection-start="180" selection-end="180" vertical-scroll-proportion="0.0">
+            <state line="27" column="46" selection-start="729" selection-end="729" vertical-scroll-proportion="-0.42">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StateConfiguration.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.ideaLibSources/stateless4j-1.0-sources.jar!/com/googlecode/stateless4j/StateConfiguration.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="46" column="48" selection-start="2137" selection-end="2137" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -527,22 +592,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/main/test/ru/korgov/tasker/StateMachineTest.java" />
-        <option value="$PROJECT_DIR$/main/app/ru/korgov/tasker/modules/statemachine/TaskerStateMachine.java" />
-        <option value="$PROJECT_DIR$/main/app/ru/korgov/tasker/modules/statemachine/model/StMachineTask.java" />
-        <option value="$PROJECT_DIR$/state-machine/app/ru/korgov/tasker/statemachine/viewers/StringListTaskMain.java" />
-        <option value="$PROJECT_DIR$/state-machine/app/ru/korgov/tasker/statemachine/model/StTaskType.java" />
-        <option value="$PROJECT_DIR$/common/app/ru/korgov/util/JSONUtils.java" />
-        <option value="$PROJECT_DIR$/state-machine/test/ru/korgov/tasker/statemachine/model/StTaskTest.java" />
-        <option value="$PROJECT_DIR$/main/test/ru/korgov/tasker/statemachine/StateMachineTest.java" />
-        <option value="$PROJECT_DIR$/state-machine/app/ru/korgov/tasker/statemachine/model/StTask.java" />
-        <option value="$PROJECT_DIR$/state-machine/app/ru/korgov/tasker/statemachine/model/StTrigger.java" />
+        <option value="$PROJECT_DIR$/main/app/ru/korgov/tasker/controllers/BinaryHelpTaskController.java" />
+        <option value="$PROJECT_DIR$/main/conf/tasker-services.xml" />
+        <option value="$PROJECT_DIR$/main/conf/statemachine-module-config.xml" />
+        <option value="$PROJECT_DIR$/main/conf/regexp-module-config.xml" />
+        <option value="$PROJECT_DIR$/main/conf/application-context.xml" />
+        <option value="$PROJECT_DIR$/main/conf/routes" />
+        <option value="$PROJECT_DIR$/project/Build.scala" />
+        <option value="db-console:/72a581d0/dc4442c4-89e0-4db2-8762-82757eef74c6/" />
+        <option value="$PROJECT_DIR$/common/app/ru/korgov/util/io/IOUtils.java" />
+        <option value="$PROJECT_DIR$/common/app/ru/korgov/util/UrlUtils.java" />
         <option value="$PROJECT_DIR$/state-machine/app/ru/korgov/tasker/statemachine/model/StateMachineConfiguration.java" />
-        <option value="$PROJECT_DIR$/main/test/ru/korgov/tasker/statemachine/StTaskTest.java" />
-        <option value="$PROJECT_DIR$/state-machine/app/ru/korgov/tasker/statemachine/viewers/StMachineInputClient.java" />
-        <option value="$PROJECT_DIR$/state-machine/app/ru/korgov/tasker/statemachine/viewers/StMachineInputClientMain.java" />
+        <option value="$PROJECT_DIR$/state-machine/app/ru/korgov/tasker/statemachine/viewers/TriggerTableModel.java" />
+        <option value="$PROJECT_DIR$/state-machine/app/ru/korgov/tasker/statemachine/model/StTrigger.java" />
         <option value="$PROJECT_DIR$/state-machine/app/ru/korgov/tasker/statemachine/viewers/StateMachineInputClient.form" />
         <option value="$PROJECT_DIR$/state-machine/app/ru/korgov/tasker/statemachine/viewers/StateMachineInputClient.java" />
+        <option value="$PROJECT_DIR$/main/test/ru/korgov/tasker/statemachine/StateMachineTest.java" />
       </list>
     </option>
   </component>
@@ -560,43 +625,10 @@
             <id />
           </State>
           <State>
-            <id>AOP</id>
-          </State>
-          <State>
-            <id>Abstraction issues</id>
-          </State>
-          <State>
-            <id>ActionScript specificJavaScript</id>
-          </State>
-          <State>
             <id>Android</id>
           </State>
           <State>
-            <id>Android Lint</id>
-          </State>
-          <State>
-            <id>Ant inspections</id>
-          </State>
-          <State>
-            <id>Application Server Specific Inspections</id>
-          </State>
-          <State>
-            <id>Assignment issues</id>
-          </State>
-          <State>
-            <id>BPMN 2.0 configuration errors</id>
-          </State>
-          <State>
-            <id>Bean Validation issues</id>
-          </State>
-          <State>
             <id>CDI(Contexts and Dependency Injection) issues</id>
-          </State>
-          <State>
-            <id>CFML</id>
-          </State>
-          <State>
-            <id>CSS</id>
           </State>
           <State>
             <id>Class metrics</id>
@@ -608,49 +640,16 @@
             <id>Cloning issues</id>
           </State>
           <State>
-            <id>Code quality toolsJavaScript</id>
-          </State>
-          <State>
             <id>Code style issues</id>
-          </State>
-          <State>
-            <id>Code style issuesJavaScript</id>
-          </State>
-          <State>
-            <id>CoffeeScript</id>
           </State>
           <State>
             <id>Concurrency annotation issues</id>
           </State>
           <State>
-            <id>Control FlowGroovy</id>
-          </State>
-          <State>
-            <id>Control flow issues</id>
-          </State>
-          <State>
-            <id>Control flow issuesJavaScript</id>
-          </State>
-          <State>
-            <id>Cucumber</id>
-          </State>
-          <State>
-            <id>Cucumber Java</id>
-          </State>
-          <State>
-            <id>Data flow issues</id>
-          </State>
-          <State>
             <id>Declaration redundancy</id>
           </State>
           <State>
-            <id>Declaration redundancyGroovy</id>
-          </State>
-          <State>
             <id>DeclarationGroovy</id>
-          </State>
-          <State>
-            <id>Dependency issues</id>
           </State>
           <State>
             <id>Encapsulation issues</id>
@@ -665,49 +664,10 @@
             <id>Error handlingJavaScript</id>
           </State>
           <State>
-            <id>Facelet format detection</id>
-          </State>
-          <State>
-            <id>Faces Model</id>
-          </State>
-          <State>
             <id>Finalization issues</id>
           </State>
           <State>
-            <id>FlexUnit inspections</id>
-          </State>
-          <State>
-            <id>FreeMarker inspections</id>
-          </State>
-          <State>
-            <id>General</id>
-          </State>
-          <State>
-            <id>GeneralCoffeeScript</id>
-          </State>
-          <State>
-            <id>GeneralJavaScript</id>
-          </State>
-          <State>
-            <id>Google Web Toolkit issues</id>
-          </State>
-          <State>
-            <id>GrailsGroovy</id>
-          </State>
-          <State>
             <id>Groovy</id>
-          </State>
-          <State>
-            <id>Guice Inspections</id>
-          </State>
-          <State>
-            <id>HTML</id>
-          </State>
-          <State>
-            <id>Hibernate Issues</id>
-          </State>
-          <State>
-            <id>Imports</id>
           </State>
           <State>
             <id>Inheritance issues</id>
@@ -716,25 +676,10 @@
             <id>Initialization issues</id>
           </State>
           <State>
-            <id>IntelliJ IDEA Platform Inspections</id>
-          </State>
-          <State>
-            <id>Internationalization issues</id>
-          </State>
-          <State>
-            <id>J2ME Plugin</id>
-          </State>
-          <State>
             <id>J2ME issues</id>
           </State>
           <State>
-            <id>JBoss Seam issues</id>
-          </State>
-          <State>
             <id>JPA issues</id>
-          </State>
-          <State>
-            <id>JSP Inspections</id>
           </State>
           <State>
             <id>JUnit issues</id>
@@ -743,28 +688,10 @@
             <id>Java EE issues</id>
           </State>
           <State>
-            <id>Java language level issues</id>
-          </State>
-          <State>
             <id>Java language level migration aids</id>
           </State>
           <State>
-            <id>JavaBeans issues</id>
-          </State>
-          <State>
-            <id>JavaFX</id>
-          </State>
-          <State>
             <id>JavaScript</id>
-          </State>
-          <State>
-            <id>JavaScript function metricsJavaScript</id>
-          </State>
-          <State>
-            <id>Javadoc issues</id>
-          </State>
-          <State>
-            <id>LESS</id>
           </State>
           <State>
             <id>Logging issues</id>
@@ -773,85 +700,22 @@
             <id>Memory issues</id>
           </State>
           <State>
-            <id>Method MetricsGroovy</id>
-          </State>
-          <State>
-            <id>Method metrics</id>
-          </State>
-          <State>
-            <id>Modularization issues</id>
-          </State>
-          <State>
             <id>Naming ConventionsGroovy</id>
           </State>
           <State>
             <id>Naming conventions</id>
           </State>
           <State>
-            <id>Naming conventionsJavaScript</id>
-          </State>
-          <State>
-            <id>Numeric issues</id>
-          </State>
-          <State>
             <id>OSGi</id>
-          </State>
-          <State>
-            <id>OtherGroovy</id>
-          </State>
-          <State>
-            <id>Packaging issues</id>
-          </State>
-          <State>
-            <id>Pages Navigation Model</id>
           </State>
           <State>
             <id>Performance issues</id>
           </State>
           <State>
-            <id>Plugin DevKit</id>
-          </State>
-          <State>
-            <id>Portability issues</id>
-          </State>
-          <State>
-            <id>Potentially confusing code constructsGroovy</id>
-          </State>
-          <State>
-            <id>Potentially confusing code constructsJavaScript</id>
-          </State>
-          <State>
             <id>Probable bugs</id>
           </State>
           <State>
-            <id>Probable bugsCoffeeScript</id>
-          </State>
-          <State>
-            <id>Probable bugsGroovy</id>
-          </State>
-          <State>
-            <id>Probable bugsJavaScript</id>
-          </State>
-          <State>
-            <id>Properties Files</id>
-          </State>
-          <State>
-            <id>RELAX NG</id>
-          </State>
-          <State>
             <id>Resource management issues</id>
-          </State>
-          <State>
-            <id>SASS/SCSS</id>
-          </State>
-          <State>
-            <id>SQL</id>
-          </State>
-          <State>
-            <id>Scala: General</id>
-          </State>
-          <State>
-            <id>Scala: Method signature</id>
           </State>
           <State>
             <id>Security issues</id>
@@ -860,66 +724,15 @@
             <id>Serialization issues</id>
           </State>
           <State>
-            <id>Spelling</id>
-          </State>
-          <State>
-            <id>Spring Model</id>
-          </State>
-          <State>
-            <id>Spring SecuritySpring Model</id>
-          </State>
-          <State>
-            <id>Spring Web FlowSpring Model</id>
-          </State>
-          <State>
-            <id>Spring Web ServicesSpring Model</id>
-          </State>
-          <State>
-            <id>Struts</id>
-          </State>
-          <State>
-            <id>Struts 1Struts</id>
-          </State>
-          <State>
-            <id>Struts 2Struts</id>
-          </State>
-          <State>
-            <id>TestNG</id>
-          </State>
-          <State>
             <id>Threading issues</id>
           </State>
           <State>
             <id>Threading issuesGroovy</id>
           </State>
-          <State>
-            <id>UI Form Problems</id>
-          </State>
-          <State>
-            <id>Validity issuesGroovy</id>
-          </State>
-          <State>
-            <id>Velocity inspections</id>
-          </State>
-          <State>
-            <id>Visibility issues</id>
-          </State>
-          <State>
-            <id>Web Services</id>
-          </State>
-          <State>
-            <id>XML</id>
-          </State>
-          <State>
-            <id>XPath</id>
-          </State>
-          <State>
-            <id>toString() issues</id>
-          </State>
         </expanded-state>
         <selected-state>
           <State>
-            <id>Abstraction issues</id>
+            <id>UnnecessaryFinalOnLocalVariableOrParameter</id>
           </State>
         </selected-state>
       </profile-state>
@@ -953,111 +766,9 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tasker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stateless4j-1.0" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stateless4j-1.0.jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tasker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stateless4j-1.0" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stateless4j-1.0.jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stateless4j" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tasker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stateless4j-1.0" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stateless4j-1.0.jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stateless4j" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="triggers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tasker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stateless4j-1.0" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stateless4j-1.0.jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stateless4j" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="transitions" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tasker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-          </PATH>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="tasker" />
@@ -1096,8 +807,30 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="StateMachineInputClient" />
+              <option name="myItemId" />
               <option name="myItemType" value="com.intellij.uiDesigner.projectView.FormNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tasker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="state-machine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="statemachine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="viewers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -1153,10 +886,6 @@
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="META-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -1207,10 +936,6 @@
               <option name="myItemId" value="viewers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="StringListTask" />
-              <option name="myItemType" value="com.intellij.uiDesigner.projectView.FormNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -1225,14 +950,6 @@
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="regexp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="viewers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -1240,11 +957,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="regexp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
+              <option name="myItemId" value="project" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1297,6 +1010,74 @@
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tasker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="statemachine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tasker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tasker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tasker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jars" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tasker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="conf" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -1401,39 +1182,103 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="tasker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tasker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tasker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tasker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tasker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="util" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tasker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="Console.TableResult.DefaultCopyAction" value="SQL Insert Statements" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/main/app/ru/korgov/tasker/controllers" />
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="options.lastSelected" value="preferences.sourceCode.SQL" />
+    <property name="options.lastSelected" value="Errors" />
     <property name="last_opened_file_path" value="/usr/local/soft/play-2.1.1/repository/cache/com.googlecode/stateless4j/jars/stateless4j-1.0.jar!/" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="GoToClass.includeJavaFiles" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="GoToClass.includeJavaFiles" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="options.searchVisible" value="true" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="PublishConfig">
     <servers>
@@ -1449,12 +1294,13 @@
     </servers>
   </component>
   <component name="RecentsManager">
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="ru.korgov.tasker.modules.statemachine" />
       <recent name="ru.korgov.tasker.statemachine.model" />
       <recent name="ru.korgov.tasker.regexp.serializer" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="ru.korgov.tasker.controllers" />
@@ -1463,6 +1309,8 @@
       <recent name="ru.korgov.tasker.regexp.model" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/main/conf" />
+      <recent name="$PROJECT_DIR$/main/app/ru/korgov/tasker/modules/statemachine" />
       <recent name="$PROJECT_DIR$/" />
       <recent name="$PROJECT_DIR$/main/app/views" />
     </key>
@@ -1472,54 +1320,7 @@
       <recent name="$PROJECT_DIR$/main/app/views/xml" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.StTaskTest.testJson">
-    <configuration default="false" name="StringListTaskMain" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="ru.korgov.tasker.regexp.viewers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="ru.korgov.tasker.regexp.viewers.StringListTaskMain" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="&quot;{\&quot;hostname\&quot;:\&quot;localhost:9000\&quot;,\&quot;task-context\&quot;:{\&quot;info\&quot;:{\&quot;id\&quot;:3,\&quot;result\&quot;:[\&quot;xxx\&quot;,\&quot;пока\&quot;,\&quot;Акрополь\&quot;,\&quot;Мама\&quot;],\&quot;title\&quot;:\&quot;Задание №3\&quot;,\&quot;source\&quot;:[\&quot;привет\&quot;,\&quot;пока\&quot;,\&quot;Акрополь\&quot;,\&quot;Мама\&quot;],\&quot;type\&quot;:\&quot;MATCH_FROM_LIST\&quot;,\&quot;descr\&quot;:\&quot;Любое слово в котором есть буква А/а\&quot;}}}&quot;" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" value="" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="regexp" />
-      <envs />
-      <RunnerSettings RunnerId="Profile ">
-        <option name="myExternalizedOptions" value="&#10;additional-options2=onexit\=snapshot&#10;" />
-      </RunnerSettings>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="ru.korgov.tasker.regexp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="ru.korgov.tasker.regexp.Main" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="regexp" />
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.StateMachineInputClientMain">
     <configuration default="false" name="TaskCreatorMain" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -1551,6 +1352,31 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
+    <configuration default="false" name="StateMachineInputClientMain" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="ru.korgov.tasker.statemachine.viewers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="ru.korgov.tasker.statemachine.viewers.StateMachineInputClientMain" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="&quot;{\&quot;hostname\&quot;:\&quot;localhost:9000\&quot;,\&quot;task-context\&quot;:{\&quot;id\&quot;:10,\&quot;title\&quot;:\&quot;Task Title\&quot;,\&quot;info\&quot;:{\&quot;config\&quot;:{\&quot;trigs\&quot;:[{\&quot;to\&quot;:\&quot;Middle1\&quot;,\&quot;fr\&quot;:\&quot;Init\&quot;,\&quot;trg\&quot;:\&quot;a\&quot;},{\&quot;to\&quot;:\&quot;Middle2\&quot;,\&quot;fr\&quot;:\&quot;Init\&quot;,\&quot;trg\&quot;:\&quot;b\&quot;},{\&quot;to\&quot;:\&quot;Finite1\&quot;,\&quot;fr\&quot;:\&quot;Middle1\&quot;,\&quot;trg\&quot;:\&quot;c\&quot;},{\&quot;to\&quot;:\&quot;Init\&quot;,\&quot;fr\&quot;:\&quot;Middle1\&quot;,\&quot;trg\&quot;:\&quot;x\&quot;},{\&quot;to\&quot;:\&quot;Finite2\&quot;,\&quot;fr\&quot;:\&quot;Middle2\&quot;,\&quot;trg\&quot;:\&quot;c\&quot;},{\&quot;to\&quot;:\&quot;Init\&quot;,\&quot;fr\&quot;:\&quot;Middle2\&quot;,\&quot;trg\&quot;:\&quot;x\&quot;},{\&quot;to\&quot;:\&quot;Init\&quot;,\&quot;fr\&quot;:\&quot;Middle2\&quot;,\&quot;trg\&quot;:\&quot;x\&quot;},{\&quot;to\&quot;:\&quot;Init\&quot;,\&quot;fr\&quot;:\&quot;Middle2\&quot;,\&quot;trg\&quot;:\&quot;x\&quot;},{\&quot;to\&quot;:\&quot;Init\&quot;,\&quot;fr\&quot;:\&quot;Middle2\&quot;,\&quot;trg\&quot;:\&quot;x\&quot;},{\&quot;to\&quot;:\&quot;Init\&quot;,\&quot;fr\&quot;:\&quot;Middle2\&quot;,\&quot;trg\&quot;:\&quot;x\&quot;},{\&quot;to\&quot;:\&quot;Init\&quot;,\&quot;fr\&quot;:\&quot;Middle2\&quot;,\&quot;trg\&quot;:\&quot;x\&quot;},{\&quot;to\&quot;:\&quot;Init\&quot;,\&quot;fr\&quot;:\&quot;Middle2\&quot;,\&quot;trg\&quot;:\&quot;x\&quot;},{\&quot;to\&quot;:\&quot;Init\&quot;,\&quot;fr\&quot;:\&quot;Middle2\&quot;,\&quot;trg\&quot;:\&quot;x\&quot;},{\&quot;to\&quot;:\&quot;Init\&quot;,\&quot;fr\&quot;:\&quot;Middle2\&quot;,\&quot;trg\&quot;:\&quot;x\&quot;},{\&quot;to\&quot;:\&quot;Init\&quot;,\&quot;fr\&quot;:\&quot;Middle2\&quot;,\&quot;trg\&quot;:\&quot;x\&quot;},{\&quot;to\&quot;:\&quot;Init\&quot;,\&quot;fr\&quot;:\&quot;Middle2\&quot;,\&quot;trg\&quot;:\&quot;x\&quot;},{\&quot;to\&quot;:\&quot;Init\&quot;,\&quot;fr\&quot;:\&quot;Middle2\&quot;,\&quot;trg\&quot;:\&quot;x\&quot;},{\&quot;to\&quot;:\&quot;Init\&quot;,\&quot;fr\&quot;:\&quot;Middle2\&quot;,\&quot;trg\&quot;:\&quot;x\&quot;},{\&quot;to\&quot;:\&quot;Init\&quot;,\&quot;fr\&quot;:\&quot;Middle2\&quot;,\&quot;trg\&quot;:\&quot;x\&quot;},{\&quot;to\&quot;:\&quot;Init\&quot;,\&quot;fr\&quot;:\&quot;Middle2\&quot;,\&quot;trg\&quot;:\&quot;x\&quot;},{\&quot;to\&quot;:\&quot;Init\&quot;,\&quot;fr\&quot;:\&quot;Middle2\&quot;,\&quot;trg\&quot;:\&quot;x\&quot;},{\&quot;to\&quot;:\&quot;Init\&quot;,\&quot;fr\&quot;:\&quot;Middle2\&quot;,\&quot;trg\&quot;:\&quot;x\&quot;},{\&quot;to\&quot;:\&quot;Init\&quot;,\&quot;fr\&quot;:\&quot;Middle2\&quot;,\&quot;trg\&quot;:\&quot;x\&quot;},{\&quot;to\&quot;:\&quot;Init\&quot;,\&quot;fr\&quot;:\&quot;Middle2\&quot;,\&quot;trg\&quot;:\&quot;x\&quot;}],\&quot;init\&quot;:\&quot;Init\&quot;,\&quot;finite\&quot;:[\&quot;Finite1\&quot;,\&quot;Finite2\&quot;]},\&quot;type\&quot;:\&quot;WRITE_STATE\&quot;,\&quot;descr\&quot;:\&quot;Task Description, Hello world!\&quot;}}}&quot;" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="state-machine" />
+      <envs />
+      <RunnerSettings RunnerId="Profile ">
+        <option name="myExternalizedOptions" value="&#10;additional-options2=onexit\=snapshot&#10;" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
     <configuration default="false" name="StateMachineTest.testDo" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -1560,14 +1386,14 @@
       </extension>
       <module name="tasker" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
       <option name="PACKAGE_NAME" value="ru.korgov.tasker.statemachine" />
       <option name="MAIN_CLASS_NAME" value="ru.korgov.tasker.statemachine.StateMachineTest" />
       <option name="METHOD_NAME" value="testDo" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
@@ -1575,6 +1401,9 @@
       </option>
       <envs />
       <patterns />
+      <RunnerSettings RunnerId="Profile ">
+        <option name="myExternalizedOptions" value="&#10;additional-options2=onexit\=snapshot&#10;" />
+      </RunnerSettings>
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
@@ -1588,10 +1417,41 @@
       </extension>
       <module name="tasker" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
       <option name="PACKAGE_NAME" value="ru.korgov.tasker.statemachine" />
       <option name="MAIN_CLASS_NAME" value="ru.korgov.tasker.statemachine.StTaskTest" />
       <option name="METHOD_NAME" value="testJson" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Profile ">
+        <option name="myExternalizedOptions" value="&#10;additional-options2=onexit\=snapshot&#10;" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="StateMachineDrawHelperTest.testDraw" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="ru.korgov.tasker.modules.statemachine.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="tasker" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="ru.korgov.tasker.modules.statemachine" />
+      <option name="MAIN_CLASS_NAME" value="ru.korgov.tasker.modules.statemachine.StateMachineDrawHelperTest" />
+      <option name="METHOD_NAME" value="testDraw" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -1613,6 +1473,14 @@
       <option name="PROGRAM_PARAMETERS" />
       <method />
     </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
     <configuration default="true" type="Specs2RunConfiguration" factoryName="Specs2">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <extension name="scalaCoverage" />
@@ -1626,27 +1494,6 @@
       <setting name="testName" value="" />
       <setting name="testKind" value="Class" />
       <setting name="showProgressMessages" value="true" />
-      <method />
-    </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -1677,6 +1524,19 @@
       <listeners />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
@@ -1690,13 +1550,6 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
-      <JSDebuggerConfigurationSettings>
-        <option name="engineId" value="embedded" />
-        <option name="fileUrl" />
-      </JSDebuggerConfigurationSettings>
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -1720,6 +1573,13 @@
       <patterns />
       <method />
     </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
+      <method />
+    </configuration>
     <configuration default="true" type="com.intellij.persistence.run.ConsoleRunConfigurationType" factoryName="Query Language Console">
       <option name="VM_PARAMETERS" value="" />
       <option name="USER_CFG_CLASS" />
@@ -1727,19 +1587,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.StringListTaskMain" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Main" />
-      <item index="2" class="java.lang.String" itemvalue="Application.TaskCreatorMain" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.StateMachineTest.testDo" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.StTaskTest.testJson" />
+      <item index="0" class="java.lang.String" itemvalue="Application.TaskCreatorMain" />
+      <item index="1" class="java.lang.String" itemvalue="Application.StateMachineInputClientMain" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.StateMachineTest.testDo" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.StTaskTest.testJson" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.StateMachineDrawHelperTest.testDraw" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.StTaskTest.testJson" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.StateMachineTest.testDo" />
-        <item index="2" class="java.lang.String" itemvalue="Application.TaskCreatorMain" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Main" />
-        <item index="4" class="java.lang.String" itemvalue="Application.StringListTaskMain" />
+        <item index="0" class="java.lang.String" itemvalue="Application.StateMachineInputClientMain" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.StateMachineDrawHelperTest.testDraw" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.StTaskTest.testJson" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.StateMachineTest.testDo" />
+        <item index="4" class="java.lang.String" itemvalue="Application.TaskCreatorMain" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -1778,7 +1638,11 @@
       <created>1369603927403</created>
       <updated>1369603927403</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="state-mashines module init">
+      <created>1369617836806</created>
+      <updated>1369617836806</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1786,13 +1650,13 @@
     <editor active="false" />
     <layout>
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3726813" sideWeight="0.7469697" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27272728" sideWeight="0.8448567" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.5902192" sideWeight="0.49848485" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2719697" sideWeight="0.80775714" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.45868465" sideWeight="0.49848485" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.11742424" sideWeight="0.8448567" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.11666667" sideWeight="0.80775714" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31703204" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.67116356" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18560606" sideWeight="0.52107924" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18560606" sideWeight="0.6559865" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.45531198" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.7048904" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -1805,8 +1669,8 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27121213" sideWeight="0.8448567" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15514334" sideWeight="0.6212121" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24772727" sideWeight="0.5413153" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22765599" sideWeight="0.6212121" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1855,7 +1719,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="missing commits" />
+    <option name="LAST_COMMIT_MESSAGE" value="state-mashines module init" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1871,6 +1735,7 @@
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="upd" />
     <MESSAGE value="missing commits" />
+    <MESSAGE value="state-mashines module init" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1880,130 +1745,62 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/main/app/ru/korgov/tasker/modules/statemachine/TaskerStateMachine.java">
+    <entry file="file://$PROJECT_DIR$/common/app/ru/korgov/util/io/IOUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="28" selection-start="330" selection-end="330" vertical-scroll-proportion="0.0">
+        <state line="39" column="34" selection-start="1221" selection-end="1230" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/state-machine/state-machine.iml">
+    <entry file="file://$PROJECT_DIR$/common/app/ru/korgov/util/UrlUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="79" selection-end="79" vertical-scroll-proportion="0.0">
+        <state line="36" column="48" selection-start="1093" selection-end="1116" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/libraries/stateless4j_1_0.xml">
+    <entry file="jar:///usr/lib/jvm/javase6u30/src.zip!/javax/swing/JPanel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="107" column="16" selection-start="3215" selection-end="3215" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/state-machine/app/META-INF/MANIFEST.MF">
+    <entry file="jar:///usr/lib/jvm/javase6u30/src.zip!/java/awt/Component.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="92" selection-end="92" vertical-scroll-proportion="0.0">
+        <state line="3100" column="16" selection-start="107540" selection-end="107540" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/test/ru/korgov/tasker/statemachine/StateMachineTest.java">
+    <entry file="file://$PROJECT_DIR$/main/test/ru/korgov/tasker/modules/statemachine/StateMachineDrawHelperTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="21" selection-start="1955" selection-end="1955" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#736#752#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/test/ru/korgov/tasker/IntegrationTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="13" selection-start="216" selection-end="216" vertical-scroll-proportion="0.0">
+        <state line="20" column="13" selection-start="578" selection-end="600" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/test/ru/korgov/tasker/ApplicationTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="10" selection-start="456" selection-end="456" vertical-scroll-proportion="0.0">
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/state-machine/app/ru/korgov/tasker/statemachine/model/StTrigger.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="9" selection-start="1765" selection-end="1765" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#889#1346#0" expanded="true" />
-            <element signature="e#1339#1340#0" expanded="true" />
-            <element signature="e#1415#1771#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/state-machine/app/ru/korgov/tasker/statemachine/model/StTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="49" selection-start="1997" selection-end="1997" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2209#2377#0" expanded="true" />
-            <element signature="e#2370#2371#0" expanded="true" />
-            <element signature="e#2443#2598#0" expanded="true" />
-            <element signature="e#2591#2592#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/state-machine/app/ru/korgov/tasker/statemachine/model/StTaskType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="34" selection-start="180" selection-end="180" vertical-scroll-proportion="0.0">
+        <state line="86" column="43" selection-start="2433" selection-end="2433" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/test/ru/korgov/tasker/statemachine/StTaskTest.java">
+    <entry file="jar:///usr/lib/jvm/javase6u30/src.zip!/javax/swing/JScrollPane.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="58" selection-start="2661" selection-end="2661" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/regexp/app/ru/korgov/tasker/regexp/viewers/StringListTaskMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="248" selection-end="1105" vertical-scroll-proportion="0.0">
+        <state line="413" column="16" selection-start="13955" selection-end="13955" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/state-machine/app/ru/korgov/tasker/statemachine/model/StateMachineConfiguration.java">
+    <entry file="jar:///usr/lib/jvm/javase6u30/src.zip!/java/awt/Window.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="91" selection-start="1877" selection-end="1877" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#495#506#0" expanded="true" />
-            <element signature="e#519#527#0" expanded="true" />
-            <element signature="e#1280#1296#0" expanded="true" />
-            <element signature="e#1323#1339#0" expanded="true" />
-            <element signature="e#1405#1421#0" expanded="true" />
-            <element signature="e#1524#1540#0" expanded="true" />
-            <element signature="e#2062#2254#0" expanded="true" />
-            <element signature="e#2247#2248#0" expanded="true" />
-            <element signature="e#2342#2536#0" expanded="true" />
-            <element signature="e#2529#2530#0" expanded="true" />
-          </folding>
+        <state line="3351" column="17" selection-start="123380" selection-end="123380" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/regexp/app/ru/korgov/tasker/regexp/viewers/StringListTask.form">
-      <provider selected="true" editor-type-id="ui-designer">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/state-machine/app/ru/korgov/tasker/statemachine/viewers/StateMachineInputClient.form">
@@ -2011,9 +1808,57 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/state-machine/app/ru/korgov/tasker/statemachine/viewers/TriggerTableModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="24" selection-start="1066" selection-end="1066" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/state-machine/app/ru/korgov/tasker/statemachine/viewers/StateMachineInputClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="40" selection-start="463" selection-end="463" vertical-scroll-proportion="1.4690722">
+        <state line="127" column="21" selection-start="4646" selection-end="4646" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/state-machine/app/ru/korgov/tasker/statemachine/model/StateMachineConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="33" selection-start="649" selection-end="649" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/app/ru/korgov/tasker/modules/statemachine/StateMachineDrawHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="24" selection-start="902" selection-end="902" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/app/ru/korgov/tasker/modules/statemachine/TaskerStateMachine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="13" selection-start="185" selection-end="185" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ideaLibSources/stateless4j-1.0-sources.jar!/com/googlecode/stateless4j/StateConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="48" selection-start="2137" selection-end="2137" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/test/ru/korgov/tasker/statemachine/StateMachineTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="46" selection-start="729" selection-end="729" vertical-scroll-proportion="-0.42">
           <folding />
         </state>
       </provider>

@@ -5,9 +5,10 @@ import org.json.JSONObject;
 import ru.korgov.util.JSONUtils;
 import ru.korgov.util.alias.Cf;
 import ru.korgov.util.alias.Cu;
+import ru.korgov.util.alias.Su;
 import ru.korgov.util.func.Function;
 
-import java.util.List;
+import java.util.Collection;
 import java.util.Set;
 
 /**
@@ -18,12 +19,12 @@ public class StateMachineConfiguration {
     public static final StateMachineConfiguration NOTHING = new StateMachineConfiguration("", Cf.<StTrigger>emptyL(), Cf.<String>emptyS());
 
     private final String initialState;
-    private final List<StTrigger> stTriggers;
+    private final Set<StTrigger> stTriggers;
     private final Set<String> finiteStates;
 
-    public StateMachineConfiguration(final String initialState, final List<StTrigger> stTriggers, final Set<String> finiteStates) {
+    public StateMachineConfiguration(final String initialState, final Collection<StTrigger> stTriggers, final Set<String> finiteStates) {
         this.initialState = initialState;
-        this.stTriggers = stTriggers;
+        this.stTriggers = Cf.newLinkedSet(stTriggers);
         this.finiteStates = finiteStates;
     }
 
@@ -31,12 +32,17 @@ public class StateMachineConfiguration {
         return initialState;
     }
 
-    public List<StTrigger> getStTriggers() {
+    public Set<StTrigger> getStTriggers() {
         return stTriggers;
     }
 
     public Set<String> getFiniteStates() {
         return finiteStates;
+    }
+
+    public boolean isValid() {
+        //todo: more validation
+        return !Su.isEmpty(initialState) && !Cu.isEmpty(finiteStates) && !Cu.isEmpty(stTriggers);
     }
 
     public static JSONObject toJson(final StateMachineConfiguration configuration) {

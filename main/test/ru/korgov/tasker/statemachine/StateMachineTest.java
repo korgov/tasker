@@ -13,19 +13,19 @@ public class StateMachineTest {
 
     @Test
     public void testDo() throws Exception {
-        Action callStartTimer = new Action() {
+        final Action callStartTimer = new Action() {
             @Override
             public void doIt() {
                 startCallTimer();
             }
         };
-        Action callStopTimer = new Action() {
+        final Action callStopTimer = new Action() {
             @Override
             public void doIt() {
                 stopCallTimer();
             }
         };
-        StateMachine<State, Trigger> phoneCall = new StateMachine<State, Trigger>(State.OffHook);
+        final StateMachine<State, Trigger> phoneCall = new StateMachine<State, Trigger>(State.OffHook);
 
         phoneCall.Configure(State.OffHook)
                 .Permit(Trigger.CallDialed, State.Ringing);
@@ -67,5 +67,10 @@ public class StateMachineTest {
 
     private void startCallTimer() {
         System.out.println("Start called");
+    }
+
+    @Test
+    public void testGraphiz() throws Exception {
+
     }
 }

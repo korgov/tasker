@@ -21,6 +21,7 @@ http://www.springframework.org/schema/context http://www.springframework.org/sch
 
     <bean name="buildTaskJnlpController" class="ru.korgov.tasker.controllers.BuildTaskJnlpController"/>
     <bean name="checkTaskController" class="ru.korgov.tasker.controllers.CheckTaskController"/>
+    <bean name="binaryHelpTaskController" class="ru.korgov.tasker.controllers.BinaryHelpTaskController"/>
 
     <bean name="buildCreatorJnlpController" class="ru.korgov.tasker.controllers.BuildCreatorJnlpController"/>
     <bean name="loadTasksByTypeController" class="ru.korgov.tasker.controllers.LoadTasksByTypeController"/>
