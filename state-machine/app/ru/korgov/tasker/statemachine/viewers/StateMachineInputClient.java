@@ -60,7 +60,7 @@ public class StateMachineInputClient {
         dataModel = buildModel(configuration.getStTriggers());
         trigTable.setModel(dataModel);
         titlePanel.setBorder(BorderFactory.createTitledBorder(task.getTitle()));
-        descriptionLabel.setText(task.getDescription());
+        descriptionLabel.setText(wrapInHtml(task.getDescription()));
 
         imagePanel.setLayout(new FlowLayout());
 
@@ -91,6 +91,10 @@ public class StateMachineInputClient {
                 redrawImageAction();
             }
         });
+    }
+
+    private String wrapInHtml(final String text) {
+        return "<html>" + text + "</html>";
     }
 
     private void removeSelectedLineAction() {
@@ -132,7 +136,7 @@ public class StateMachineInputClient {
     }
 
     private void checkAction() {
-
+//        stateMachineTaskChecker
     }
 
     private TriggerTableModel buildModel(final Collection<StTrigger> stTriggers) {

@@ -17,7 +17,7 @@ public class StTaskTest {
     public void testJson() throws Exception {
 
         final StTask stTask = new StTask(15L, "Task Title", "Task Description, Hello world!", StTaskType.WRITE_STATE,
-                new StateMachineConfiguration("Init",
+                extInfo, new StateMachineConfiguration("Init",
                         Cf.list(
                                 new StTrigger("Init", "a", "Middle1"),
                                 new StTrigger("Init", "b", "Middle2"),

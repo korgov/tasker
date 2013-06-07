@@ -7,6 +7,8 @@ import ru.korgov.util.alias.Cf;
 import ru.korgov.util.alias.Fu;
 import ru.korgov.util.func.Function;
 
+import java.util.List;
+
 /**
  * Author: Kirill Korgov (korgov@korgov.ru)
  * Date: 27.05.13 3:30
@@ -16,13 +18,15 @@ public class StTask {
     private final String title;
     private final String description;
     private final StTaskType type;
+    private final JSONObject extInfo;
     private final StateMachineConfiguration configuration;
 
-    public StTask(final long id, final String title, final String description, final StTaskType type, final StateMachineConfiguration configuration) {
+    public StTask(final long id, final String title, final String description, final StTaskType type, final JSONObject extInfo, final StateMachineConfiguration configuration) {
         this.id = id;
         this.title = title;
         this.description = description;
         this.type = type;
+        this.extInfo = extInfo;
         this.configuration = configuration;
     }
 
@@ -58,6 +62,10 @@ public class StTask {
         );
     }
 
+    public JSONObject getExtInfo() {
+        return extInfo;
+    }
+
     public static StTask fromJson(final JSONObject json) {
         try {
             final JSONObject info = json.getJSONObject("info");
@@ -66,6 +74,7 @@ public class StTask {
                     json.getString("title"),
                     info.getString("descr"),
                     StTaskType.valueOf(info.getString("type")),
+                    info.getJSONObject("ext"),
                     StateMachineConfiguration.fromJson(info.getJSONObject("config"))
             );
         } catch (JSONException e) {
@@ -96,5 +105,21 @@ public class StTask {
                 ", type=" + type +
                 ", configuration=" + configuration +
                 '}';
+    }
+
+    public List<String> getCorrectStrings() {
+        try {
+            return JSONUtils.asStringList(extInfo.getJSONArray("corrects"));
+        } catch (JSONException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
+    public List<String> getIncorrectStrings() {
+        try {
+            return JSONUtils.asStringList(extInfo.getJSONArray("incorrects"));
+        } catch (JSONException e) {
+            throw new RuntimeException(e);
+        }
     }
 }
